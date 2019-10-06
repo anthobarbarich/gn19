@@ -2,16 +2,16 @@
 <div class="bgvideo2">
   </div>
    <div class="contentpage">
-    <div class="container-5 w-container"><a href="/artists" class="backlink"><span class="red">←</span> Line-Up</a>
-      <h1 class="headingartist">Louise Bourgeois<br></h1>
-      <div class="artist-type">{{.Params.date}}</div>
+    <div class="container-5 w-container"><a href="/lineup" class="backlink"><span class="red">←</span> Line-Up</a>
+      <h1 class="headingartist">{{.Params.name}}<br></h1>
+      <div class="artist-type">{{.Params.Date}}</div>
       <div class="date-artist">{{.Params.perf}}</div>
       <div class="block-editions">
         <div class="flex">
           <div class="block-50"><img src="{{ .Params.picture }}" width="480" alt="" class="imgartist-page"></div>
           <div class="block-50">
             <p class="white">{{.Params.description }}</p>
-            <a href="" class="linkartist">Website<br></a>
+            <a href="" class="linkartist">More info<br></a>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
           <div class="block-50"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Image/assets/placeholder.60f9b1840c.svg" width="480" alt=""></div>
           <div class="block-50"></div>
         </div>
-      </div><a href="/artists" class="backlink"><span class="red">←</span> Line-Up</a></div>
+      </div><a href="/lineup" class="backlink"><span class="red">←</span> Line-Up</a></div>
   </div>
 
 {{ partial "site-footer.html" . }}
