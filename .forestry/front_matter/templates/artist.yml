@@ -57,3 +57,5 @@ fields:
   type: image_gallery
   config: {}
   label: media
+pages:
+- content/artists/louise-bourgeois.md
