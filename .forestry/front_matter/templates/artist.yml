@@ -39,16 +39,6 @@ fields:
       file: 
       path: 
   label: Date
-- name: time
-  type: number
-  label: time
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 - name: perf
   type: tag_list
   default: []
@@ -57,6 +47,3 @@ fields:
   type: image_gallery
   config: {}
   label: media
-pages:
-- content/artists/shackleton.md
-- content/artists/louise-bourgeois.md
