@@ -1,0 +1,59 @@
+---
+label: artist
+hide_body: false
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
+  description: artist name
+- name: picture
+  type: file
+  config:
+    maxSize: '1'
+  label: picture
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: date
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Thursday 7
+    - Friday 8
+    - Saturday 9
+    - Sunday 10
+    - Monday 11
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
+  label: Date
+- name: time
+  type: number
+  label: time
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: perf
+  type: tag_list
+  default: []
+  label: Type of performance
+- name: media
+  type: image_gallery
+  config: {}
+  label: media
