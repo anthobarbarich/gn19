@@ -5,6 +5,5 @@ media = []
 name = "Shackelton / Zempel"
 perf = []
 picture = ""
-time = nil
 
 +++
