@@ -22,7 +22,7 @@ fields:
     schema:
       format: markdown
   label: description
-- name: date
+- name: day
   type: select
   default: []
   config:
@@ -74,6 +74,8 @@ fields:
       file: 
       path: 
   label: Type of performance
-pages:
-- content/lineup/shackleton-zimpel.md
-- content/lineup/louise-bourgeois.md
+- name: website
+  type: text
+  config:
+    required: false
+  label: website
