@@ -7,21 +7,38 @@
   </url>
   
   <url>
+    <loc>https://www.lesgaragesnumeriques.com/lineup/louise-bourgeois/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.lesgaragesnumeriques.com/lineup/shackleton-zimpel/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.lesgaragesnumeriques.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.lesgaragesnumeriques.com/tags/</loc>
+    <loc>https://www.lesgaragesnumeriques.com/venue/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.lesgaragesnumeriques.com/lineup/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.lesgaragesnumeriques.com/contact/</loc>
+    <loc>https://www.lesgaragesnumeriques.com/partners/</loc>
   </url>
   
   <url>
-    <loc>https://www.lesgaragesnumeriques.com/lineup2/</loc>
+    <loc>https://www.lesgaragesnumeriques.com/practical/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.lesgaragesnumeriques.com/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

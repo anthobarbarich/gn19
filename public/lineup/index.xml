@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lineups on Les Garages Numériques 2019</title>
+    <link>https://www.lesgaragesnumeriques.com/lineup/</link>
+    <description>Recent content in Lineups on Les Garages Numériques 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://www.lesgaragesnumeriques.com/lineup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.lesgaragesnumeriques.com/lineup/louise-bourgeois/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lesgaragesnumeriques.com/lineup/louise-bourgeois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.lesgaragesnumeriques.com/lineup/shackleton-zimpel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lesgaragesnumeriques.com/lineup/shackleton-zimpel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

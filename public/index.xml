@@ -11,24 +11,48 @@
     
     
     <item>
-      <title>Want to get in touch with us ?</title>
-      <link>https://www.lesgaragesnumeriques.com/contact/</link>
+      <title></title>
+      <link>https://www.lesgaragesnumeriques.com/lineup/louise-bourgeois/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.lesgaragesnumeriques.com/contact/</guid>
-      <description> Name
-  Email
-  Message
-  Send →  </description>
+      <guid>https://www.lesgaragesnumeriques.com/lineup/louise-bourgeois/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>lineup</title>
-      <link>https://www.lesgaragesnumeriques.com/lineup2/</link>
+      <title></title>
+      <link>https://www.lesgaragesnumeriques.com/lineup/shackleton-zimpel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.lesgaragesnumeriques.com/lineup2/</guid>
-      <description>Hello</description>
+      <guid>https://www.lesgaragesnumeriques.com/lineup/shackleton-zimpel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Bourse / De Beurs</title>
+      <link>https://www.lesgaragesnumeriques.com/venue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lesgaragesnumeriques.com/venue/</guid>
+      <description>Through the scenography and artistic installations, Les Garages Numériques will play with the location’s codes and characteristics, thus underlining the many sumptuous architectural traits of the listed edifice, all the while respecting the building and its environment.</description>
+    </item>
+    
+    <item>
+      <title>Our Partners</title>
+      <link>https://www.lesgaragesnumeriques.com/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lesgaragesnumeriques.com/partners/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Practical / Info</title>
+      <link>https://www.lesgaragesnumeriques.com/practical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.lesgaragesnumeriques.com/practical/</guid>
+      <description></description>
     </item>
     
   </channel>
