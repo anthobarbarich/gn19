@@ -13,5 +13,5 @@ fields:
   name: introtext
   label: introtext
 pages:
-- content/lineup/line-up.md
+- content/lineup/_index.md.md
 - content/venue.md
