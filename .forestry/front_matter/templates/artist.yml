@@ -58,4 +58,5 @@ fields:
   config: {}
   label: media
 pages:
+- content/artists/shackleton.md
 - content/artists/louise-bourgeois.md
