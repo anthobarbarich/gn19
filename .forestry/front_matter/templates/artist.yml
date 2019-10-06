@@ -33,19 +33,44 @@ fields:
     - Saturday 9
     - Sunday 10
     - Monday 11
+    - Exhibition
     source:
       type: simple
       section: ''
       file: 
       path: 
   label: Date
-- name: perf
-  type: tag_list
-  default: []
-  label: Type of performance
+- name: time
+  type: text
+  config:
+    required: false
+  label: Time
 - name: media
   type: image_gallery
   config: {}
   label: media
-pages:
-- content/artists/cleveland.md
+- name: room
+  type: text
+  config:
+    required: false
+  label: Room
+- name: perf
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - A/V
+    - DJ Set
+    - Live
+    - Exhibition
+    - Talk
+    - VJ
+    - Installation
+    - Performance
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type of performance
