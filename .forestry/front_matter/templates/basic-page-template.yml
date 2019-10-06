@@ -12,3 +12,5 @@ fields:
 - type: textarea
   name: introtext
   label: introtext
+pages:
+- content/la-bouse-de-beurs.md
