@@ -79,3 +79,5 @@ fields:
   config:
     required: false
   label: website
+pages:
+- content/lineup/batu.md
