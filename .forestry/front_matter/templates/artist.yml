@@ -75,4 +75,5 @@ fields:
       path: 
   label: Type of performance
 pages:
+- content/lineup/shackleton-zempel.md
 - content/lineup/louise-bourgeois.md
