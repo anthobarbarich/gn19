@@ -13,5 +13,6 @@ fields:
   name: introtext
   label: introtext
 pages:
+- content/previous-editions.md
 - content/lineup/_index.md
 - content/venue.md
