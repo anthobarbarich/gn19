@@ -5,6 +5,5 @@ media = []
 name = "Louise Bourgeois"
 perf = []
 picture = "/uploads/louise_bourgeois-600x600.jpg"
-time = nil
 
 +++
