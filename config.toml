@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.lesgaragesnumeriques.com/"
+languageCode = "en-US"
+title = "Les Garages Numériques 2019"
+
+[params]
+    description = "Digital Arts Festival - 7-11/11 - La Bourse Brussels"
+	author = "Studio Colibri"
