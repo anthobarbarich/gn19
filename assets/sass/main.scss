@@ -1,0 +1,43 @@
+$glitch-blue: #1728c7;
+
+$steps: 5;
+.glitch {
+    position: relative;
+    letter-spacing: 0.01em;
+    transform: scale3d(1,1,1);
+    
+        &::before,
+        &::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            background: $glitch-blue;
+            color: white;
+            clip: rect(0, 900px, 0, 0);
+            width:100%;
+            right:0;
+            z-index:3;
+        }
+    
+        &::before {
+            left: 7px;
+            animation: glitch-effect 3s infinite linear alternate-reverse;
+        }
+    
+        &::after {
+            left: 3px;
+            animation: glitch-effect 2s infinite linear alternate-reverse;
+        }
+  }
+  
+  @keyframes glitch-effect{
+  
+    @for $i from 0 through $steps{
+        #{percentage($i*(1/$steps))}{
+            clip:rect(random(100)+px,9999px,random(100)+px,0); 
+        }
+    }
+  }

@@ -391,7 +391,7 @@ a {
 .headingv2 {
   position: relative;
   z-index: 1;
-  display: block;
+  display: inline-block;
   margin-bottom: 55px;
   padding-bottom: 38px;
   -webkit-align-self: flex-start;
@@ -1568,6 +1568,43 @@ a {
     margin-left: 20px;
   }
 }
+.glitch {
+  position: relative;
+  letter-spacing: 0.01em;
+  transform: scale3d(1, 1, 1); }
+  .glitch::before, .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: #1728c7;
+    color: white;
+    clip: rect(0, 900px, 0, 0);
+    width: 100%;
+    right: 0;
+    z-index: 3; }
+  .glitch::before {
+    left: 7px;
+    animation: glitch-effect 3s infinite linear alternate-reverse; }
+  .glitch::after {
+    left: 3px;
+    animation: glitch-effect 2s infinite linear alternate-reverse; }
+
+@keyframes glitch-effect {
+  0% {
+    clip: rect(13px, 9999px, 9px, 0); }
+  20% {
+    clip: rect(66px, 9999px, 53px, 0); }
+  40% {
+    clip: rect(30px, 9999px, 81px, 0); }
+  60% {
+    clip: rect(50px, 9999px, 7px, 0); }
+  80% {
+    clip: rect(8px, 9999px, 63px, 0); }
+  100% {
+    clip: rect(75px, 9999px, 12px, 0); } }
 
 @font-face {
   font-family: 'Neuemachina';

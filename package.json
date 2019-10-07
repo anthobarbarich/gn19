@@ -1,0 +1,23 @@
+{
+  "name": "gn19ok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthobarbarich/gn19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthobarbarich/gn19/issues"
+  },
+  "homepage": "https://github.com/anthobarbarich/gn19#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.4",
+    "postcss-cli": "^6.1.3"
+  }
+}
