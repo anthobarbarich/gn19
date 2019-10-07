@@ -79,6 +79,22 @@ fields:
   config:
     required: false
   label: website
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - ArtScience
+    - Exhibition
+    - Nocturnes
+    - GN Pro
+    source:
+      type: simple
+      section: pages
+      file: 
+      path: ''
+  label: category
 pages:
 - content/lineup/batu.md
 - content/lineup/aisha-devi-mfo.md
