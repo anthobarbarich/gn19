@@ -29,3 +29,5 @@ fields:
     max: 
     labelField: 
   label: blockcontent
+pages:
+- content/gn-pro.md
