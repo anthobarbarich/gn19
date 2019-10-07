@@ -51,4 +51,5 @@ fields:
     - Monday 11
   label: day
 pages:
+- content/nocturnes.md
 - content/gn-pro.md
