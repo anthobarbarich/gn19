@@ -1,4 +1,5 @@
 +++
+day = ["Thursday 7"]
 layout = "category"
 title = "GN Pro"
 type = "category"
