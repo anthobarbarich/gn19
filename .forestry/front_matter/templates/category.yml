@@ -1,4 +1,31 @@
 ---
 label: category
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: blockcontent
+  type: field_group_list
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: text
+  - name: picture
+    type: file
+    config:
+      maxSize: 250
+    label: picture
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: blockcontent
