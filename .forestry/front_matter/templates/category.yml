@@ -29,5 +29,11 @@ fields:
     max: 
     labelField: 
   label: blockcontent
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: category
 pages:
 - content/gn-pro.md
