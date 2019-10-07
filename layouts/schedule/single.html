@@ -1,0 +1,190 @@
+{{ partial "site-header.html" . }}
+<div class="bgvideo2">
+  </div>
+  <div class="contentpage">
+    <div class="w-container">
+      <h1 class="headingv2 glitch" data-text="{{ .Params.title }}">{{ .Params.title }}<br></h1>
+      <h2 class="intro-pages venue">{{ .Params.introtext }}</h2>
+    </div>
+<div class="w-container">
+      <div data-duration-in="300" data-duration-out="100" class="w-tabs">
+        <div class="tabs-menu w-tab-menu">
+          <a data-w-tab="Tab 1" class="tablink w-inline-block w-tab-link w--current">
+            <div>Thu 7</div>
+          </a>
+          <a data-w-tab="Tab 2" class="tablink w-inline-block w-tab-link">
+            <div>FRI 8</div>
+          </a>
+          <a data-w-tab="Tab 3" class="tablink w-inline-block w-tab-link">
+            <div>SAT 9</div>
+          </a>
+          <a data-w-tab="Tab 4" class="tablink w-inline-block w-tab-link">
+            <div>SUN 10</div>
+          </a>
+          <a data-w-tab="Tab 5" class="tablink w-inline-block w-tab-link">
+            <div>MON 11</div>
+          </a>
+          <a data-w-tab="Tab 6" class="tablink w-inline-block w-tab-link">
+            <div>EXHIBITION</div>
+          </a>
+        </div>
+        <div class="w-tab-content">
+          <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane w--tab-active">
+            <div class="room">
+              <h2 class="room-heading">Les Garages Numériques Pro: meetings & masterclass<br></h2>
+              <div class="block-artist">
+<!--                <div class="hours">10:00-18:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+            </div>
+            <div class="room">
+              <h2 class="room-heading">Opening Night : concerts & A/V live shows<br></h2>
+				{{range where .Site.Pages ".Params.day" "Thursday 7"}}
+				
+				
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>
+				{{ end }}
+
+			  </div>
+        
+            </div>
+			 <div data-w-tab="Tab 2" class="w-tab-pane">
+            <div class="room">
+              <h2 class="room-heading">Night: A/V live shows, 3D-sound live & DJ-sets<br></h2>
+				{{range where .Site.Pages ".Params.day" "Friday 8"}}
+				
+				
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>
+				{{ end }}
+
+			  </div>
+        
+            </div>
+				 <div data-w-tab="Tab 3" class="w-tab-pane">
+            <div class="room">
+              <h2 class="room-heading">ArtScience Night<br></h2>
+				{{range where .Site.Pages ".Params.day" "Saturday 9"}}
+				
+				
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>
+				{{ end }}
+
+			  </div>
+        
+            </div>
+			 <div data-w-tab="Tab 4" class="w-tab-pane">
+            <div class="room">
+              <h2 class="room-heading">Night: A/V live shows, 3D-sound live & DJ-sets<br></h2>
+				{{range where .Site.Pages ".Params.day" "Sunday 10"}}
+				
+				
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>
+				{{ end }}
+
+			  </div>
+        
+            </div>
+			 <div data-w-tab="Tab 5" class="w-tab-pane">
+            <div class="room">
+              <h2 class="room-heading">Exhibition Day 5<br></h2>
+				{{range where .Site.Pages ".Params.day" "Monday 11"}}
+				
+				
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>
+				{{ end }}
+
+			  </div>
+        
+            </div>
+          </div>
+          <div data-w-tab="Tab 6" class="tab-pane-tab-1 w-tab-pane">
+            <div class="room">
+              <h2 class="room-heading">Room 1<br></h2>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+            </div>
+            <div class="room">
+              <h2 class="room-heading">Room 2<br></h2>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+              <div class="block-artist">
+                <div class="hours">18:00-22:00</div>
+                <div class="html-embed-2 w-embed"><br></div>
+                <h3 class="artistname">Artist Name<br></h3>
+                <div class="arti-type">DJ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  {{ partial "cta.html" . }}
+
+	 </div>
+
+
+
+{{ partial "site-footer.html" . }}
