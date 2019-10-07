@@ -1,5 +1,5 @@
 +++
-day = ["Thursday 7"]
+day = ["Thursday 7", "Friday 8", "Saturday 9", "Sunday 10", "Monday 11"]
 layout = "category"
 title = "Exhibition"
 type = "category"
