@@ -1,8 +1,7 @@
 +++
 day = ["Thursday 7"]
-draft = true
 layout = "category"
-title = "GN Pro"
+title = "Exhibition"
 type = "category"
 [[blockcontent]]
 picture = "/uploads/gnprosmall-p-500.jpeg"
