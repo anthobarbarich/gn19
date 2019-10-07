@@ -80,5 +80,5 @@ fields:
     required: false
   label: website
 pages:
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/batu.md
+- content/lineup/aisha-devi-mfo.md
