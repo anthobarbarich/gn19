@@ -1,8 +1,7 @@
 +++
-day = ["Thursday 7", "Friday 8", "Saturday 9", "Sunday 10", "Monday 11"]
-draft = true
+day = ["Friday 8"]
 layout = "category"
-title = "Exhibition"
+title = "ArtScience"
 type = "category"
 [[blockcontent]]
 picture = "/uploads/gnprosmall-p-500.jpeg"

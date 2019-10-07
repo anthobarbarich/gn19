@@ -51,7 +51,7 @@ fields:
     - Monday 11
   label: day
 pages:
-- content/exhibition-1.md
+- content/artscience.md
 - content/nocturnes.md
 - content/gn-pro.md
 - content/exhibition.md
