@@ -1,0 +1,36 @@
+{{ partial "site-header.html" . }}
+<div class="bgvideo2">
+  </div>
+   <div class="contentpage">
+    <div class="container-5 w-container"><a href="/lineup" class="backlink"><span class="red">←</span> Line-Up</a>
+      <h1 class="headingartist" data-text="{{ .Params.title }}">{{.Title}}<br></h1>
+      <div class="artist-type">
+{{ $day := .Params.day }}
+		  {{ range $day }}
+		  {{.}}
+		  {{end}}
+		</div>
+      <div class="block-editions">
+		  
+		  {{range .Params.blockcontent}}
+        <div class="flex gnpro">
+          <div class="block-50"><img src="{{.picture}}" alt="" class="imgvenue"></div>
+          <div class="block-50">
+            <p class="white">{{.text}} </p>
+          </div>
+        </div>
+		  {{ end }}
+      </div>
+      <div class="block-editions media">
+        <h2 class="room-heading">Media<br></h2>
+        <div class="flex">
+          <div class="block-50"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Image/assets/placeholder.60f9b1840c.svg" width="480" alt=""></div>
+          <div class="block-50"></div>
+        </div>
+      </div>{{.Content}}
+		
+		<a href="/lineup" class="backlink"><span class="red">←</span> Line-Up</a>
+	   </div>
+  </div>
+
+{{ partial "site-footer.html" . }}

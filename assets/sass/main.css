@@ -24,14 +24,14 @@
 
 @keyframes glitch-effect {
   0% {
-    clip: rect(55px, 9999px, 26px, 0); }
+    clip: rect(57px, 9999px, 71px, 0); }
   20% {
-    clip: rect(75px, 9999px, 4px, 0); }
+    clip: rect(21px, 9999px, 46px, 0); }
   40% {
-    clip: rect(30px, 9999px, 89px, 0); }
+    clip: rect(6px, 9999px, 92px, 0); }
   60% {
-    clip: rect(53px, 9999px, 1px, 0); }
+    clip: rect(21px, 9999px, 55px, 0); }
   80% {
-    clip: rect(18px, 9999px, 98px, 0); }
+    clip: rect(63px, 9999px, 57px, 0); }
   100% {
-    clip: rect(6px, 9999px, 46px, 0); } }
+    clip: rect(94px, 9999px, 88px, 0); } }
