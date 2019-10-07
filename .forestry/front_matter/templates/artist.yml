@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/shackleton-zimpel.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/batu.md
