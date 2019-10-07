@@ -36,22 +36,19 @@ fields:
   label: type
   default: category
 - name: day
-  type: select
-  default: ''
+  type: list
   config:
-    required: false
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
     options:
     - Thursday 7
     - Friday 8
     - Saturday 9
     - Sunday 10
     - Monday 11
-    - Ongoing
-    source:
-      type: simple
-      section: pages
-      file: content/lineup/louise-bourgeois.md
-      path: media
   label: day
 pages:
 - content/gn-pro.md
