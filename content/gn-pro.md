@@ -1,4 +1,5 @@
 +++
+layout = "category"
 title = "GN Pro"
 [[blockcontent]]
 picture = "/uploads/gnprosmall-p-500.jpeg"
