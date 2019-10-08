@@ -923,7 +923,7 @@ a {
 
 .lineup {
   position: relative;
-  display: block;
+  display: none;
   opacity: 0.19;
   color: #fff;
 }
@@ -1613,6 +1613,8 @@ a {
     clip: rect(8px, 9999px, 63px, 0); }
   100% {
     clip: rect(75px, 9999px, 12px, 0); } }
+.show { display: block;}
+
 
 @font-face {
   font-family: 'Neuemachina';

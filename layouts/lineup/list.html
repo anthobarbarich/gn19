@@ -1,24 +1,25 @@
 {{ partial "site-header.html" . }}
-<div class="bgvideo2">
-  </div>
+<div class="bgvideo2"> </div>
+<div class="contentpage">
   <div class="contentpage">
-	   <div class="contentpage">
     <div class="block-lineup">
-      <h1 class="headingv2 glitch" data-text="{{ .Params.title }}">Line-Up<br></h1>
-		
-		
-		{{ range .Pages  }}
-
-<a href="{{ .Permalink }}" class="lineup w-inline-block" data-ix="lineupartist"><img src="{{ .Params.picture }}" alt="" class="imgartist"><h2 class="lineup-heading">{{ .Params.name }}</h2><div class="arti-type lineup2">{{ .Params.perf }}</div></a>
-		
-		
-		{{end}}
-		   
-		   </div>
+      <h1 class="headingv2 glitch" data-text="{{ .Params.title }}">Line-Up<br>
+      </h1>
+      <br>
+      <a onclick="filterSelection('Thursday')"  style="background-color:#5dceb4">Thursday</a> <a onclick="filterSelection('Friday')"  style="background-color:#5dceb4">Friday</a> <a onclick="filterSelection('Saturday')"  style="background-color:#ff7e9a;">Saturday</a> <a onclick="filterSelection('Sunday')">Sunday</a> <a onclick="filterSelection('Nocturnes')">Nocturnes</a>
+      <select onchange="filterSelection(this.value);" onkeyup="filterSelection(this.value);">
+        <option value='all'>All</option>
+        <option value='Thursday'>Thursday</option>
+        <option value='Friday'>Friday</option>
+        <option value='Saturday'>Saturday</option>
+        <option value='Sunday'>Sunday</option>
+        <option value='Monday'>Monday</option>
+      </select>
+      {{ range .Pages  }} <a href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><img src="{{ .Params.picture }}" alt="" class="imgartist">
+      <h2 class="lineup-heading">{{ .Params.name }}</h2>
+      <div class="arti-type lineup2">{{ .Params.perf }}</div>
+      </a> {{end}} </div>
   </div>
-    <div class="w-container">{{.Content}}</div>
-	  {{ partial "cta.html" . }}
-
-	 </div>
-
+  <div class="w-container">{{.Content}}</div>
+  {{ partial "cta.html" . }} </div>
 {{ partial "site-footer.html" . }}
