@@ -22,28 +22,28 @@
       {{ $title := .Title}}
       
 		{{ if eq $title "Nocturnes" }}
-      {{ range where .Site.Pages ".Params.category" "Nocturnes"}} <a href="{{ .Permalink }}" class="lineup w-inline-block" data-ix="lineupartist">
+      {{ range where .Site.Pages ".Params.category" "Nocturnes"}} <a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
       <h2 class="lineup-heading" style="text-transform: capitalize">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end }}
       {{end}} 
 		
 		{{ if eq $title "Exhibition" }}
-      {{ range where .Site.Pages ".Params.category" "Exhibition"}} <a href="{{ .Permalink }}" class="lineup w-inline-block" data-ix="lineupartist">
+      {{ range where .Site.Pages ".Params.category" "Exhibition"}} <a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
       <h2 class="lineup-heading" style="text-transform: capitalize">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end }}
       {{end}} 
 		
 				{{ if eq $title "ArtScience" }}
-      {{ range where .Site.Pages ".Params.category" "ArtScience"}} <a href="{{ .Permalink }}" class="lineup w-inline-block" data-ix="lineupartist">
+      {{ range where .Site.Pages ".Params.category" "ArtScience"}} <a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
       <h2 class="lineup-heading" style="text-transform: capitalize">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end }}
       {{end}} 
 		
 		{{ if eq $title "GN Pro" }}
-      {{ range where .Site.Pages ".Params.category" "Gn Pro"}} <a href="{{ .Permalink }}" class="lineup w-inline-block" data-ix="lineupartist">
+      {{ range where .Site.Pages ".Params.category" "Gn Pro"}} <a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
       <h2 class="lineup-heading" style="text-transform: capitalize">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end }}

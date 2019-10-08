@@ -1627,7 +1627,7 @@ a {
     clip: rect(8px, 9999px, 63px, 0); }
   100% {
     clip: rect(75px, 9999px, 12px, 0); } }
-.show { display: block;}
+.show { display: block; color: white;}
 
 
 @font-face {
