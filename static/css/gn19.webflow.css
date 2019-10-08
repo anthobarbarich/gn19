@@ -859,6 +859,10 @@ a {
   margin-bottom: 60px;
 }
 
+.flex.gnpro:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
 .block-30 {
   width: 30%;
 }
@@ -1556,6 +1560,10 @@ a {
     align-items: center;
     text-align: center;
   }
+	.flex.gnpro:nth-child(even) {
+    flex-direction:column;
+    text-align: left;
+}
   .block-partners {
     margin-top: 68px;
     -webkit-box-pack: center;
