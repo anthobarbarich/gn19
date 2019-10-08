@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <title>gn19</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
+  <meta charset="utf-8"> <meta name="language" content="{{ .Site.LanguageCode }}" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <title>{{ .Site.Title }} | 7-11 November Bourse/Beurs Brussels</title>
+    <meta name="author" content='{{ .Site.Params.Author }}' />
+    <meta name="description" content='{{ .Site.Params.Description }}' />
+    <meta property="og:type" content="website" />
+  	<meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}" />
+    <meta property="og:description" content='{{ .Site.Params.Description }}' />
+    <meta property="og:image" content="https://garagesnumeriques.netlify.com/img/garages-numeriques-opengraph.jpg" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/gn19.webflow.css" rel="stylesheet" type="text/css">
