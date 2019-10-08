@@ -932,6 +932,20 @@ a {
   opacity: 1;
 }
 
+.filterselect {
+	    background: none;
+    border-radius: 0;
+    padding: 40px;
+    color: white;
+    line-height: 2em;
+    border: none;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.filterselect:focus {
+ outline: 0;	   
+}
+
 .block-lineup {
   position: relative;
   width: 1000px;

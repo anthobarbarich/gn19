@@ -6,15 +6,23 @@
       <h1 class="headingv2 glitch" data-text="{{ .Params.title }}">Line-Up<br>
       </h1>
       <br>
-      <a onclick="filterSelection('Thursday')"  style="background-color:#5dceb4">Thursday</a> <a onclick="filterSelection('Friday')"  style="background-color:#5dceb4">Friday</a> <a onclick="filterSelection('Saturday')"  style="background-color:#ff7e9a;">Saturday</a> <a onclick="filterSelection('Sunday')">Sunday</a> <a onclick="filterSelection('Nocturnes')">Nocturnes</a>
-      <select onchange="filterSelection(this.value);" onkeyup="filterSelection(this.value);">
+		<div style="display:inline-block;">
+		<label for="selectday" style="color:white;font-weight: 300; display: block;">Filter by Day</label>
+      <select class="filterselect" onchange="filterSelection(this.value);" onkeyup="filterSelection(this.value);" id="selectday">
         <option value='all'>All</option>
         <option value='Thursday'>Thursday</option>
         <option value='Friday'>Friday</option>
         <option value='Saturday'>Saturday</option>
         <option value='Sunday'>Sunday</option>
         <option value='Monday'>Monday</option>
-      </select>
+      </select>	</div>
+		<div><label for="selectcateg" style="color:white;font-weight: 300;">Filter by Category</label>
+      <select class="filterselect" onchange="filterSelection(this.value);" onkeyup="filterSelection(this.value);" id="selectcateg">
+        <option value='all'>All</option>
+        <option value='Nocturnes'>Nocturnes</option>
+        <option value='Exhibition'>Exhibition</option>
+        <option value='ArtScience'>ArtScience</option>
+        <option value='Gn Pro'>Gn Pro</option>      </select></div>
       {{ range .Pages  }} <a href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><img src="{{ .Params.picture }}" alt="" class="imgartist">
       <h2 class="lineup-heading">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
