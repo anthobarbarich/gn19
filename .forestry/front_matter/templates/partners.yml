@@ -1,4 +1,24 @@
 ---
 label: Partners
 hide_body: false
-fields: []
+fields:
+- name: basic_page
+  type: include
+  config: {}
+  template: basic-page-template
+  label: Basic Page
+- name: partner
+  type: text
+  config:
+    required: false
+  label: partner
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: logo
+- name: link
+  type: text
+  config:
+    required: false
+  label: link
