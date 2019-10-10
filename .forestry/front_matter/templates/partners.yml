@@ -1,0 +1,34 @@
+---
+label: Partners
+hide_body: false
+fields:
+- name: basic_page
+  type: include
+  config: {}
+  template: basic-page-template
+  label: Basic Page
+- name: partners
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: logo
+    type: file
+    config:
+      maxSize: 250
+    label: logo
+  - name: url
+    type: text
+    config:
+      required: false
+    label: url
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: partners
+pages:
+- content/partners.md
