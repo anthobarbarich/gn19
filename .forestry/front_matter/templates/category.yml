@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: title
+- name: introtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: introtext
 - name: blockcontent
   type: field_group_list
   fields:
