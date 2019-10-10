@@ -7,8 +7,11 @@
       <h2 class="intro-pages venue">{{ .Params.introtext }}</h2>
     </div>
     <div class="w-container">
-	  <div class="block-partners"><a href="#"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"></a><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"><img src="/images/digiziklogo.svg" alt="" class="imgpartner"></div>
-	 
+	  <div class="block-partners">
+		  {{range .Params.partners }}
+		  <a href="{{.url}}" target="_blank"><img src="{{.logo}}" alt="{{.name}}" class="imgpartner"></a>
+		  {{ end}}
+		  
 	</div>
 	  {{ partial "cta.html" . }}
 
