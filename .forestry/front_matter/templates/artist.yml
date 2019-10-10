@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/reycolino.md
 - content/lineup/testartist.md
 - content/lineup/stijn.md
 - content/lineup/cleveland.md
