@@ -7,18 +7,26 @@ fields:
   config: {}
   template: basic-page-template
   label: Basic Page
-- name: partner
-  type: text
+- name: partners
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: logo
+    type: file
+    config:
+      maxSize: 250
+    label: logo
+  - name: url
+    type: text
+    config:
+      required: false
+    label: url
   config:
-    required: false
-  label: partner
-- name: logo
-  type: file
-  config:
-    maxSize: 250
-  label: logo
-- name: link
-  type: text
-  config:
-    required: false
-  label: link
+    min: 
+    max: 
+    labelField: 
+  label: partners
