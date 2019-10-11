@@ -6,7 +6,7 @@ media = []
 name = "Batu"
 perf = "DJ Set"
 picture = "/uploads/71802538_1358322774319576_8139889304336859136_o.jpg"
-room = ""
+room = "Main Room"
 time = ""
 website = ""
 
