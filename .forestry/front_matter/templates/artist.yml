@@ -96,11 +96,11 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/stijn.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/reycolino.md
 - content/lineup/testartist.md
-- content/lineup/stijn.md
 - content/lineup/cleveland.md
 - content/lineup/shackleton-zimpel.md
 - content/lineup/louise-bourgeois.md
