@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/stijn.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
@@ -104,5 +105,4 @@ pages:
 - content/lineup/cleveland.md
 - content/lineup/shackleton-zimpel.md
 - content/lineup/louise-bourgeois.md
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/batu.md
