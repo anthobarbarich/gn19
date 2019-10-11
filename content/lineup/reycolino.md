@@ -5,8 +5,8 @@ description = ""
 media = []
 name = "Rey Colino"
 perf = "DJ Set"
-picture = "/uploads/gnpro2-p-500.jpeg"
-room = ""
+picture = "/uploads/019748560001_### (1).jpg"
+room = "Main Room"
 time = ""
 website = ""
 
