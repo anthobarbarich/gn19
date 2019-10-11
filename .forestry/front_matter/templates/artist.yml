@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/herman-kolgen.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
