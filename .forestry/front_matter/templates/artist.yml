@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/felix-luque-damien-gernay.md
 - content/lineup/reycolino.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/martin-messier.md
