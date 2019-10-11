@@ -96,8 +96,8 @@ fields:
       path: ''
   label: category
 pages:
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/stijn.md
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/reycolino.md

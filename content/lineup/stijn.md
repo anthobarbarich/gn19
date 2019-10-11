@@ -6,7 +6,7 @@ media = []
 name = "Stijn"
 perf = "DJ Set"
 picture = "/uploads/linkspic.jpg"
-room = "Great Hall"
+room = "Main Room"
 time = ""
 website = ""
 
