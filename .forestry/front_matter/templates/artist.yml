@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/antoine-de-schuyter.md
 - content/lineup/mika-oki.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/reycolino.md
