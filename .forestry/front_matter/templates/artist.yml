@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/mathieu-zurstrassen.md
 - content/lineup/reycolino.md
 - content/lineup/martin-messier.md
 - content/lineup/cleveland.md
