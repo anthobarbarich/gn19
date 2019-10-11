@@ -1,13 +1,13 @@
 +++
-category = ""
-day = ""
+category = "Exhibition"
+day = "Exhibition"
 description = ""
 draft = true
 media = []
 name = "Johann Baron Lanteigne"
-perf = ""
+perf = "Exhibition"
 picture = ""
-room = ""
+room = "Exhibition room"
 time = ""
 website = ""
 
