@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/refik-anadol.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/mika-oki.md
