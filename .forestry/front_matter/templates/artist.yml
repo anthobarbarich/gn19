@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/reycolino.md
 - content/lineup/testartist.md
