@@ -4,8 +4,20 @@
    <div class="contentpage">
     <div class="container-5 w-container"><a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a>
       <h1 class="headingartist">{{.Params.name}}<br></h1>
-      <div class="artist-type">{{.Params.day}}</div>
-      <div class="date-artist">{{.Params.perf}}</div>
+      <div class="artist-type">
+		  
+		  {{.Params.day}}</div>
+      <div class="date-artist">
+		  {{ if eq .Params.perf "Exhibition"}}
+		  THURSDAY 7 -> MONDAY 11
+		  {{ else if eq .Params.perf "A/V"}}
+		  A/V SHOW
+		{{ else }}
+		  {{ .Params.perf }}
+		  
+		
+		  {{end}}
+		</div>
       <div class="block-editions">
         <div class="flex">
           <div class="block-50 img-blend"><img src="/thumbs/images{{ .Params.picture }}" width="480" alt="" class="imgartist-page"></div>

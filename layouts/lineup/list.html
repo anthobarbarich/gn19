@@ -16,7 +16,10 @@
           <option value='Saturday'>Saturday</option>
           <option value='Sunday'>Sunday</option>
           <option value='Monday'>Monday</option>
-        </select>	
+			<option value='Exhibition'>Ongoing exhibition</option>
+
+	
+			  </select>	
        </div>
       <div>
         <label for="selectcateg" style="color:white;font-weight: 300;">Filter by Category</label>
@@ -24,14 +27,18 @@
           <option value='all'>All</option>
           <option value='Nocturnes'>Nocturnes</option>
           <option value='Exhibition'>Exhibition</option>
-          <option value='ArtScience'>ArtScience</option>
-          <option value='Gn Pro'>Gn Pro</option>      </select>
+          <option value='ArtScience'>ArtScience Night</option>
+          <option value='Gn Pro'>GN PRO</option>      </select>
       </div>
     </div>
 		
       {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><div><img src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" class="imgartist"></div>
       <h2 class="lineup-heading">{{ .Params.name }}</h2>
-      <div class="arti-type lineup2">{{ .Params.perf }}</div>
+      <div class="arti-type lineup2">{{ if eq .Params.perf "A/V"}}
+		  A/V SHOW
+		{{ else }}
+		  {{ .Params.perf }}
+		  {{end}}</div>
       </a> {{end}} </div>
   </div>
   <div class="w-container">{{.Content}}</div>
