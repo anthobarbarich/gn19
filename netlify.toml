@@ -16,4 +16,4 @@
     
 [build]
 publish = "public"
-command = "hugo; node critical; gulp minify"
+command = "hugo; gulp minify"
