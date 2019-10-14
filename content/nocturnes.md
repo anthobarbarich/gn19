@@ -1,5 +1,6 @@
 +++
 day = ["Thursday 7", "Friday 8", "Sunday 10"]
+introtext = "bla bla"
 layout = "category"
 title = "Nocturnes"
 type = "category"
