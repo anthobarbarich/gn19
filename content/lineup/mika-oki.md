@@ -1,7 +1,7 @@
 +++
 category = "Exhibition"
 day = "Exhibition"
-description = "There is a shifting border between the movement of clouds and the behavior of microscopic elements. There is a fluid frontier between serenity and chaos. You see landscapes , You see particles. I see movement and i see remission. It is magnetic and it turns to liquid. Surrounded by acoustic vibrations, the installation distorts time, boundaries and scales. \nLike an oracle mirror, it emits and reflects, ever changing and always the same."
+description = "Mika Oki visual and sound artist, living and wor-\nking in Brussels. With a background in sculpture and electro-acoustic music, she explores the notion\nof intangible spaces and emotional landscapes\nthrough video, sculpture and sound installations.\nUsing abstract sound textures and kinetic mental\nimages, she recreates imageries playing with the\nborders of the unconscious. Her previous works has\nbeen shown at Berlin Atonal and SONICA."
 media = []
 name = "Mika Oki"
 perf = "Exhibition"

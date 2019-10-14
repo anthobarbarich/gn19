@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/mika-oki.md
 - content/lineup/cabasa.md
 - content/lineup/kali-malone.md
 - content/lineup/woody.md
@@ -109,7 +110,6 @@ pages:
 - content/lineup/martin-messier.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/felix-luque-damien-gernay.md
-- content/lineup/mika-oki.md
 - content/lineup/refik-anadol.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
