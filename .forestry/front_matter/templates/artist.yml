@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/mika-oki.md
 - content/lineup/cabasa.md
 - content/lineup/kali-malone.md
@@ -122,6 +123,5 @@ pages:
 - content/lineup/cleveland.md
 - content/lineup/batu.md
 - content/lineup/stijn.md
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/shackleton-zimpel.md
 - content/lineup/louise-bourgeois.md
