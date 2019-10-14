@@ -36,7 +36,7 @@
 <!-- End Facebook Pixel Code -->
 </head>
 <body class="body">
-  <div class="tt">
+<!--  <div class="tt">
     <div class="html-embed w-embed" data-ix="closebtn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="arcs"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
     <div class="w-container">
       <h1 class="heading-2 underline"><strong>Thursday, 7 November 2019</strong><br></h1>
@@ -52,7 +52,7 @@
       <h1 class="heading-2 underline"><strong>Friday, 10 November 2019</strong><br></h1>
       <h2 class="heading-3"><strong>12:00-20:00<br></strong>Exhibition day 4<br><strong>21:00-06:00 (overnight)<br></strong>Night: A/V live shows, 3D-sound lives &amp; DJ-sets<br></h2>
     </div>
-  </div>
+  </div>-->
   <div class="background-video">
     <a href="#artists" class="scrolldown w-inline-block">
       <div class="div-block-3">
@@ -79,22 +79,8 @@
  
     </div>
     <div class="featured-artist" data-ix="artistnamemoving">
-      <div class="range-artist">
-        <h2 class="section-heading-copy">Aïsha Devi ft. MFO : ∞E=TRv<br></h2>
-        <h2 class="section-heading-copy">Drew McDowall ft. Florence To<br><br></h2>
-        <h2 class="section-heading-copy">Shackleton ft. Zimpel<br><br></h2>
-        <h2 class="section-heading-copy">Batu<br></h2>
-        <h2 class="section-heading-copy"><br></h2>
-        <h2 class="section-heading-copy">Aïsha Devi ft. MFO : ∞E=TRv<br></h2>
-        <h2 class="section-heading-copy">Drew McDowall ft. Florence To<br><br></h2>
-        <h2 class="section-heading-copy">Shackleton ft. Zimpel<br><br></h2>
-        <h2 class="section-heading-copy">Batu<br></h2>
-        <h2 class="section-heading-copy"><br></h2>
-        <h2 class="section-heading-copy">Aïsha Devi ft. MFO : ∞E=TRv<br></h2>
-        <h2 class="section-heading-copy">Drew McDowall ft. Florence To<br><br></h2>
-        <h2 class="section-heading-copy">Shackleton ft. Zimpel<br><br></h2>
-        <h2 class="section-heading-copy">Batu<br></h2>
-        <h2 class="section-heading-copy"><br></h2>
+      <div class="range-artist"> {{range where .Site.RegularPages "Section" "==" "lineup"}}
+        <h2 class="section-heading-copy">{{.Params.name}}<br></h2>{{end}}
       </div>
     </div>
     <div class="w-container"><a href="/lineup" class="section-link">See Full Line-Up</a></div>
@@ -137,7 +123,7 @@
   ]
 }</script></a></div>
   </div>
-  <div class="_01 bluebg">
+<!--  <div class="_01 bluebg">
     <div class="w-container">
       <div class="text-block-4">OUR BLOG</div>
       <h2 class="section-heading white">Latest News</h2>
@@ -152,7 +138,7 @@
         <div class="block-50"><img src="images/louise_bourgeois-600x600.jpg" alt=""></div>
         <div class="block-50"></div>
       </div><a href="#" class="section-link">ALL NEWS</a></div>
-  </div>
+  </div>-->
   <div class="cta">
     <a href="https://tibbaa.com/order/wvvymjxtiw?lang=en" target="_blank" class="containcta w-inline-block">
       <div class="text-block-4">TICKETS</div>

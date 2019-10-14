@@ -657,17 +657,18 @@ a {
 }
 
 .section-heading-copy {
-  display: inline-block;
-  margin-top: 90px;
-  margin-right: 116px;
-  margin-bottom: -100px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  color: #1500ff;
-  font-size: 14em;
-  line-height: 1em;
+display: inline;
+    margin-top: 90px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #1500ff;
+    font-size: 14em;
+    line-height: 1em;
+    width: max-content;
 }
 
 .featured-artist {
