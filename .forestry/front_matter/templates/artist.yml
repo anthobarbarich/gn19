@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/drew-mcdowall.md
 - content/lineup/miaux.md
 - content/lineup/plic:ploc.md
 - content/lineup/djrum.md
