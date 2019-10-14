@@ -2,7 +2,7 @@
 day = ["Thursday 7"]
 introtext = ""
 layout = "category"
-title = "GN Pro"
+title = "GN PRO"
 type = "category"
 [[blockcontent]]
 picture = "/uploads/gnprosmall-p-500.jpeg"
