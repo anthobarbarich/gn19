@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/kate-miller.md
 - content/lineup/djrum.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
