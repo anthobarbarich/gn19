@@ -5,10 +5,10 @@ layout = "category"
 title = "ArtScience"
 type = "category"
 [[blockcontent]]
-picture = "/uploads/48428770_1152188671599655_5564649492298334208_n.jpg"
+picture = ""
 text = "texte"
 [[blockcontent]]
-picture = "/uploads/bosphorus.jpg"
+picture = ""
 text = "texte"
 
 +++
