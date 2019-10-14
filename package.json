@@ -18,6 +18,14 @@
   "homepage": "https://github.com/anthobarbarich/gn19#readme",
   "dependencies": {
     "autoprefixer": "^9.6.4",
+    "gulp": "^3.8.11",
+    "gulp-cli": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
     "postcss-cli": "^6.1.3"
   }
 }

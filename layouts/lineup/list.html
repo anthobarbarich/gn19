@@ -29,7 +29,7 @@
       </div>
     </div>
 		
-      {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><img src="{{ .Params.picture }}"  alt="" class="imgartist">
+      {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><div><img src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" class="imgartist"></div>
       <h2 class="lineup-heading">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end}} </div>
