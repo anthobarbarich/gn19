@@ -96,8 +96,9 @@ fields:
       path: ''
   label: category
 pages:
-- content/lineup/kate-miller.md
+- content/lineup/plic:ploc.md
 - content/lineup/djrum.md
+- content/lineup/kate-miller.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/mathieu-zurstrassen.md
