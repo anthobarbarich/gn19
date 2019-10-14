@@ -1,12 +1,12 @@
 +++
-category = ""
+category = "Nocturnes"
 day = ""
 description = "Headquartered in Stockholm, Kali Malone is an American composer and musician who creates sonic monoliths that tug at the very material of listening. Via analog and digital synthesis – and within compositional frameworks that utilize unique tunings and psycho-acoustic phenomena – Malone’s dark minimalism maintains a certain gravity, even as the ground shifts. In addition to her music practice, Malone co-operates the record label and concert series XKatedral."
 media = []
 name = "Kali Malone"
-perf = ""
+perf = "DJ Set"
 picture = ""
-room = ""
+room = "Ambient Room"
 time = ""
 website = ""
 
