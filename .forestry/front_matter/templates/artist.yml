@@ -96,12 +96,12 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/batu.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/ramzi.md
 - content/lineup/cleveland.md
 - content/lineup/mika-oki.md
 - content/lineup/arnaud-laffond.md
-- content/lineup/batu.md
 - content/lineup/drew-mcdowall.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
