@@ -65,7 +65,49 @@
 	  <section id="home-title" style="position:absolute;overflow:hidden;left-9999999px;">
         <h1 class="home-title__h1" id="home-title__h1" data-text="Digital arts festival" style="opacity:0">Digital arts festival</h1>
     </section>
-	      {{ block "nav" . }}{{ partial "site-nav.html" . }}{{ end }}
+	  <div id="video-wrapper"></div>
+<div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar w-nav">
+	<a href="/index.html" class="brand w-nav-brand w--current"><img src="/images/logo.svg" alt="" class="image homeleave">
+		  <div class="site-logo homestay" href="{{.Site.BaseURL}}">
+		<h3 class="site-logo__text">
+			<span class="site-logo__text__span">Les</span>
+			<span class="site-logo__text__span">Garages</span>
+			<span class="site-logo__text__span">Numériques</span>
+		</h3>
+		<div class="site-logo__bars">
+			<div class="site-logo__bar one"></div>
+			<div class="site-logo__bar two"></div>
+			<div class="site-logo__bar three"></div>
+			<div class="site-logo__bar four"></div>
+			<div class="site-logo__bar five"></div>
+			<div class="site-logo__bar six" id="sixth-bar"></div>
+		</div>
+	</div>
+	
+	
+	</a>
+  <nav role="navigation" class="nav-menu w-nav-menu">
+    <div class="container-3 w-container"><a href="/lineup" class="nav-link w-nav-link">Line-Up</a>
+      <div data-delay="0" class="nav-link w-dropdown">
+        <div class="dropdown-toggle w-dropdown-toggle">
+          <div class="icon-2 w-icon-dropdown-toggle"></div>
+          <div class="text-block-5">PROGRAM</div>
+        </div>
+        <nav class="dropdown-list w-dropdown-list"><a href="/schedule" class="ddlink w-dropdown-link">SCHEDULE</a><a href="/exhibition" class="ddlink w-dropdown-link">EXHIBITION</a><a href="/nocturnes" class="ddlink w-dropdown-link">NOCTURNES</a><a href="/gn-pro" class="ddlink w-dropdown-link">GN PRO</a><a href="/artscience" class="ddlink w-dropdown-link">ARTSCIENCE NIGHT</a></nav>
+      </div>
+      <a href="/venue" class="nav-link w-nav-link">THE VENUE</a><a href="/partners" class="nav-link w-nav-link">PARTNERS</a><a href="https://lesgaragesnumeriques.squarespace.com" target="_blank" class="nav-link w-nav-link">previous editions</a></div>
+  </nav>
+  <div class="text-block"><strong class="bold-text">Bourse/Beurs<br>
+    BRUSSELS</strong><br>
+    <br>
+    7 › 11<br>
+    NOVEMBER<br>
+    2019</div>
+  <div class="menu-button w-nav-button">
+    <div class="icon w-icon-nav-menu"></div>
+  </div>
+</div>
+
 
     <div class="container w-container">
       <h2 class="heading-3">Five days &amp; four nights dedicated to audiovisual installations, a/v performances, live shows, DJ-sets, conferences, screenings and professional meetings.<br></h2>
@@ -102,19 +144,7 @@
       </div>
     </div>
     <div class="home-section-right">
-      <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
-        <div class="w-slider-mask">
-          <div class="slide w-slide"></div>
-          <div class="w-slide"></div>
-        </div>
-        <div class="w-slider-arrow-left">
-          <div class="w-icon-slider-left"></div>
-        </div>
-        <div class="w-slider-arrow-right">
-          <div class="w-icon-slider-right"></div>
-        </div>
-        <div class="w-slider-nav w-round"></div>
-      </div><a href="#" class="w-inline-block w-lightbox"><img src="images/play-circle.svg" width="74" alt="" class="playicon"><script type="application/json" class="w-json">{
+<a href="#" class="w-inline-block w-lightbox"><img src="images/play-circle.svg" width="74" alt="" class="playicon"><script type="application/json" class="w-json">{
   "items": [
     {
       "type": "video",
@@ -134,4 +164,190 @@
       <h2 class="heading-4">Still didn&#x27;t get your tickets?<br>Grab them here!</h2>
     </a>
   </div>
-	      {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+ <div class="ctabottom">
+    <a href="https://tibbaa.com/order/wvvymjxtiw?lang=en" target="_blank" class="link-block-copy w-inline-block">
+      <div class="text-block-3">GET TICKETS</div>
+    </a>
+  </div>  
+<div class="footer">
+    <div class="linksmblock">
+      <div class="txtblocleft">© Les Garages Numériques 2019 <br></div><a href="https://www.facebook.com/lesgaragesnumeriques/" target="_blank" class="linksm">Facebook</a><a href="https://www.instagram.com/lesgaragesnumeriques/" class="linksm">Instagram</a><a href="mailto:dorian.meeus@undermynetwork.com?subject=Mail%20From%20Website" class="linksm">Contact</a></div>
+  </div>  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="/js/webflow.js" type="text/javascript"></script>
+<script>
+
+// VIDEO BG
+var launchVideo = function() {
+  var videlem = document.createElement("video"),
+  sourceMP4 = document.createElement("source"),
+  supportsVideoElement = !!document.createElement('video').canPlayType,
+  temp = document.createElement('video'),
+  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
+  //canPlay_WEMB = temp.canPlayType('video/webm; codecs="vp8,vorbis"'),
+  videoWrapper = document.getElementById('video-wrapper');
+
+  if (supportsVideoElement && canPlay_MP4) {
+    videlem.id = "video-bg";    
+    sourceMP4.type = "video/mp4";
+    sourceMP4.src = "/videos/SPLITSmp4-transcode.mp4";
+    videlem.appendChild(sourceMP4);
+    videlem.preload = true;
+    videlem.autoplay = true;
+    videlem.muted = true;
+    videlem.loop = true;
+    videlem.setAttribute('playsinline', '');
+    videoWrapper.appendChild(videlem);
+    console.log('launchvideo');
+  }
+}
+
+// LOGO ANIM
+var logoAnim = function(callback) {
+  var sixthBar = document.getElementById('sixth-bar'),
+  isFirstAnimTerminated = false,
+  siteLogoTextSpans = document.querySelectorAll('.site-logo__text__span'),
+  siteLogoBars = document.querySelectorAll('.site-logo__bar');
+
+  for (var i=0; i<siteLogoTextSpans.length; i++) {
+    siteLogoTextSpans[i].classList.add('animated');
+  }
+  for (var i=0; i<siteLogoBars.length; i++) {
+    siteLogoBars[i].classList.add('animated');
+  }
+
+  function launchBlueBar() {
+    if (!isFirstAnimTerminated) {
+      sixthBar.classList.add('bluebar');
+    }
+  }
+
+  sixthBar.addEventListener("webkitAnimationEnd", launchBlueBar);
+  sixthBar.addEventListener("animationend", launchBlueBar); 
+
+  setTimeout( function(){
+    callback();
+    console.log('Logoanim');
+  }, 3500 );
+}
+
+// GLITCH
+function launchGlitch(callback) {
+  var homeTitle = document.getElementById('home-title__h1');
+  homeTitle.classList.add('glitch');
+  console.log('launchGlitch');
+  callback();
+}
+
+// INIT 
+window.onload = function() {
+  logoAnim(function() {
+    launchGlitch(function() {
+      launchVideo();
+    });
+  });
+}
+</script>
+<script type="text/javascript">
+
+function filterSelection (idDay, idCat)
+{
+  
+  var day=document.getElementById('selectday').value;
+  var cat=document.getElementById('selectcateg').value;
+  var days = document.getElementsByClassName("filterDiv");
+  var endTable=[];
+  var daysArray= $.map(days, function(value, index)
+  {
+      return [value];
+  });
+  
+  if(cat == "all" && day !== "all")
+   { 
+        endTable=daysArray.filter(function(dayArray)
+         {
+           let dayClass= dayArray.className;
+           if(dayClass.includes(day))
+           {
+               display(dayArray); 
+           }
+           else
+           {
+               removeDisplay(dayArray); 
+           }
+         })
+  
+    }
+  else if (cat !== "all" && day == "all")
+   { 
+        endTable=daysArray.filter(function(dayArray)
+         {
+           let dayClass= dayArray.className;
+           if(dayClass.includes(cat))
+           {
+               display(dayArray);
+           }
+           else
+           {
+               removeDisplay(dayArray);  
+           }
+         })
+   }
+   else if (cat !== "all" && day !== "all")
+   { 
+        endTable=daysArray.filter(function(dayArray)
+         {
+           let dayClass= dayArray.className;
+           if(dayClass.includes(cat) && dayClass.includes(day))
+           {
+               display(dayArray);
+           }
+           else
+           {
+               removeDisplay(dayArray);  
+           }
+         })
+   }
+   else 
+   {
+     endTable=daysArray.filter(function(dayArray)
+         {
+           let dayClass= dayArray.className;
+           display(dayArray);
+         })
+   }
+
+}
+
+function display(element) {
+  element.style.display="block";
+}
+function removeDisplay(element)
+{
+  element.style.display="none";
+}
+
+// newsletter action
+document.querySelector("button.joinustxt").addEventListener('click', function() {
+  document.querySelector("#social-buttons").classList.toggle("opened");
+});
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<!--<script defer>
+window.addEventListener('load', function() {    
+    document.getElementById('flowplayer').style.display = 'block';      
+}, false);
+</script>-->
+
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>

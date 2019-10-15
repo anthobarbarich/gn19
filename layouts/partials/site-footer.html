@@ -35,50 +35,12 @@ var launchVideo = function() {
   }
 }
 
-// LOGO ANIM
-var logoAnim = function(callback) {
-  var sixthBar = document.getElementById('sixth-bar'),
-  isFirstAnimTerminated = false,
-  siteLogoTextSpans = document.querySelectorAll('.site-logo__text__span'),
-  siteLogoBars = document.querySelectorAll('.site-logo__bar');
-
-  for (var i=0; i<siteLogoTextSpans.length; i++) {
-    siteLogoTextSpans[i].classList.add('animated');
-  }
-  for (var i=0; i<siteLogoBars.length; i++) {
-    siteLogoBars[i].classList.add('animated');
-  }
-
-  function launchBlueBar() {
-    if (!isFirstAnimTerminated) {
-      sixthBar.classList.add('bluebar');
-    }
-  }
-
-  sixthBar.addEventListener("webkitAnimationEnd", launchBlueBar);
-  sixthBar.addEventListener("animationend", launchBlueBar); 
-
-  setTimeout( function(){
-    callback();
-    console.log('Logoanim');
-  }, 3500 );
-}
-
-// GLITCH
-function launchGlitch(callback) {
-  var homeTitle = document.getElementById('home-title__h1');
-  homeTitle.classList.add('glitch');
-  console.log('launchGlitch');
-  callback();
-}
 
 // INIT 
 window.onload = function() {
-  logoAnim(function() {
-    launchGlitch(function() {
+
       launchVideo();
-    });
-  });
+ 
 }
 </script>
 <script type="text/javascript">
