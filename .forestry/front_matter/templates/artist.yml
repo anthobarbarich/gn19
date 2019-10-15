@@ -96,11 +96,11 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/ramzi.md
 - content/lineup/woody.md
 - content/lineup/kali-malone.md
 - content/lineup/cabasa.md
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/mika-oki.md
 - content/lineup/drew-mcdowall.md
 - content/lineup/plic:ploc.md
