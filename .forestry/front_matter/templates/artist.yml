@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/drew-mcdowall.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/stijn.md
@@ -107,7 +108,6 @@ pages:
 - content/lineup/kate-miller.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
-- content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
 - content/lineup/cleveland.md
 - content/lineup/cabasa.md
