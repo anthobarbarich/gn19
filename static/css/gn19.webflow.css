@@ -1637,7 +1637,7 @@ a {
     margin-top: 0px;
     margin-bottom: 30px;
 }
-}
+
 .lightbox-link {
     position: relative;
     -webkit-box-orient: vertical;
@@ -1659,6 +1659,7 @@ a {
     flex-direction: column;
     text-align: left;
 }
+
 .block-partners {
     margin-top: 68px;
     -webkit-box-pack: center;
@@ -1673,7 +1674,7 @@ a {
 
 .block-50.img-blend {
     margin-bottom: 30px;
-}
+	}
 }
 .glitch {
     position: relative;
