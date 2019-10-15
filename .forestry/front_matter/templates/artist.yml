@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/louise-bourgeois.md
 - content/lineup/kate-miller.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
@@ -124,4 +125,3 @@ pages:
 - content/lineup/batu.md
 - content/lineup/stijn.md
 - content/lineup/shackleton-zimpel.md
-- content/lineup/louise-bourgeois.md
