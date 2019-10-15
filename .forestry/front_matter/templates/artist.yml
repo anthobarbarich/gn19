@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/mathieu-zurstrassen.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/felix-luque-damien-gernay.md
@@ -120,7 +121,6 @@ pages:
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
-- content/lineup/mathieu-zurstrassen.md
 - content/lineup/refik-anadol.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
