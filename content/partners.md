@@ -13,3 +13,4 @@ partners:
   url: https://digizik.com/
 
 ---
+![](/uploads/ALL_SPONSORS.jpg)
