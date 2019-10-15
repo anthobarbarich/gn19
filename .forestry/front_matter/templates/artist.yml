@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/refik-anadol.md
@@ -120,7 +121,6 @@ pages:
 - content/lineup/cleveland.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/ann-veronica-janssens.md
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/plic:ploc.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/miaux.md
