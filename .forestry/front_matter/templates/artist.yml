@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/kate-miller.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
 - content/lineup/drew-mcdowall.md
@@ -108,7 +109,6 @@ pages:
 - content/lineup/mika-oki.md
 - content/lineup/plic:ploc.md
 - content/lineup/miaux.md
-- content/lineup/kate-miller.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/mathieu-zurstrassen.md
