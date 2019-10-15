@@ -1,6 +1,6 @@
 +++
 day = ["Saturday 9"]
-introtext = "The popularization of science trough art"
+introtext = "The promotion of science trough art"
 layout = "category"
 title = "ArtScience"
 type = "category"
