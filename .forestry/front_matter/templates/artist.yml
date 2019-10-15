@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/antoine-de-schuyter.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/stijn.md
@@ -122,5 +123,4 @@ pages:
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
 - content/lineup/martin-messier.md
-- content/lineup/antoine-de-schuyter.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
