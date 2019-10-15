@@ -1,4 +1,15 @@
 ---
 label: timetable2
 hide_body: false
-fields: []
+fields:
+- name: titre
+  type: text
+  config:
+    required: false
+  label: titre
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
