@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/ramzi.md
 - content/lineup/plic:ploc.md
 - content/lineup/miaux.md
 - content/lineup/louise-bourgeois.md
@@ -107,7 +108,6 @@ pages:
 - content/lineup/cleveland.md
 - content/lineup/cabasa.md
 - content/lineup/aisha-devi-mfo.md
-- content/lineup/ramzi.md
 - content/lineup/woody.md
 - content/lineup/mika-oki.md
 - content/lineup/nicolas-bernier.md
