@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
 - content/lineup/plic:ploc.md
@@ -116,7 +117,6 @@ pages:
 - content/lineup/arnaud-laffond.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
-- content/lineup/stijn.md
 - content/lineup/miaux.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
