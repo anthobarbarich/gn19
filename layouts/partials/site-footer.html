@@ -8,6 +8,39 @@
       <div class="txtblocleft">© Les Garages Numériques 2019 <br></div><a href="https://www.facebook.com/lesgaragesnumeriques/" target="_blank" class="linksm">Facebook</a><a href="https://www.instagram.com/lesgaragesnumeriques/" class="linksm">Instagram</a><a href="mailto:dorian.meeus@undermynetwork.com?subject=Mail%20From%20Website" class="linksm">Contact</a></div>
   </div>  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="/js/webflow.js" type="text/javascript"></script>
+<script>
+
+// VIDEO BG
+var launchVideo = function() {
+  var videlem = document.createElement("video"),
+  sourceMP4 = document.createElement("source"),
+  supportsVideoElement = !!document.createElement('video').canPlayType,
+  temp = document.createElement('video'),
+  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
+  //canPlay_WEMB = temp.canPlayType('video/webm; codecs="vp8,vorbis"'),
+  videoWrapper = document.getElementById('video-wrapper');
+
+  if (supportsVideoElement && canPlay_MP4) {
+    videlem.id = "video-bg";    
+    sourceMP4.type = "video/mp4";
+    sourceMP4.src = "/videos/SPLITSmp4-transcode.mp4";
+    videlem.appendChild(sourceMP4);
+    videlem.preload = true;
+    videlem.autoplay = true;
+    videlem.muted = true;
+    videlem.loop = true;
+    videlem.setAttribute('playsinline', '');
+    videoWrapper.appendChild(videlem);
+    console.log('launchvideo');
+  }
+}
+
+window.onload = function() {
+      launchVideo();
+   
+ 
+}
+</script>
 <script type="text/javascript">
 
 function filterSelection (idDay, idCat)
@@ -103,11 +136,12 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
-<script defer>
+<!--<script defer>
 window.addEventListener('load', function() {    
     document.getElementById('flowplayer').style.display = 'block';      
 }, false);
-</script>
+</script>-->
+
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>

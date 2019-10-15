@@ -36,23 +36,35 @@
 
 </head>
 <body class="pages">
-	<div data-poster-url="/videos/SPLITSmp4-poster-00001.jpg" data-video-urls="videos/SPLITSmp4-transcode.mp4,videos/SPLITSmp4-transcode.webm" data-autoplay="false" data-loop="true" data-wf-ignore="true" class="video-copy w-background-video w-background-video-atom pages"><video autoplay="" loop="" style="background-image:url(&quot;videos/SPLITSmp4-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true"><source src="/videos/SPLITSmp4-transcode.mp4" data-wf-ignore="true"><source src="/videos/SPLITSmp4-transcode.webm" data-wf-ignore="true"></video></div>
+	<div data-poster-url="/videos/SPLITSmp4-poster-00001.jpg" data-video-urls="videos/SPLITSmp4-transcode.mp4,videos/SPLITSmp4-transcode.webm" data-autoplay="false" data-loop="true" data-wf-ignore="true" class="video-copy w-background-video w-background-video-atom pages" id="flowplayer">
+  <video autoplay="false" loop="" style="background-image:url(&quot;videos/SPLITSmp4-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true">
+    <source src="/videos/SPLITSmp4-transcode.mp4" data-wf-ignore="true">
+    <source src="/videos/SPLITSmp4-transcode.webm" data-wf-ignore="true">
+  </video>
+</div>
 <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar w-nav"><a href="/index.html" class="brand w-nav-brand w--current"><img src="/images/logo.svg" alt="" class="image"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu">
-        <div class="container-3 w-container"><a href="/lineup" class="nav-link w-nav-link">Line-Up</a>
-          <div data-delay="0" class="nav-link w-dropdown">
-            <div class="dropdown-toggle w-dropdown-toggle">
-              <div class="icon-2 w-icon-dropdown-toggle"></div>
-              <div class="text-block-5">PROGRAM</div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="/schedule" class="ddlink w-dropdown-link">SCHEDULE</a><a href="/exhibition" class="ddlink w-dropdown-link">EXHIBITION</a><a href="/nocturnes" class="ddlink w-dropdown-link">NOCTURNES</a><a href="/gn-pro" class="ddlink w-dropdown-link">GN PRO</a><a href="/artscience" class="ddlink w-dropdown-link">ARTSCIENCE NIGHT</a></nav>
-          </div><a href="/venue" class="nav-link w-nav-link">THE VENUE</a><a href="/partners" class="nav-link w-nav-link">PARTNERS</a><a href="/previous-editions" class="nav-link w-nav-link">previous editions</a><a href="/practical" class="nav-link w-nav-link">PRACTICAL</a></div>
-      </nav>
-      <div class="text-block"><strong class="bold-text">Bourse/Beurs<br>BRUSSELS</strong><br><br>7 › 11<br>NOVEMBER<br>2019</div>
-      <div class="menu-button w-nav-button">
-        <div class="icon w-icon-nav-menu"></div>
+  <nav role="navigation" class="nav-menu w-nav-menu">
+    <div class="container-3 w-container"><a href="/lineup" class="nav-link w-nav-link">Line-Up</a>
+      <div data-delay="0" class="nav-link w-dropdown">
+        <div class="dropdown-toggle w-dropdown-toggle">
+          <div class="icon-2 w-icon-dropdown-toggle"></div>
+          <div class="text-block-5">PROGRAM</div>
+        </div>
+        <nav class="dropdown-list w-dropdown-list"><a href="/schedule" class="ddlink w-dropdown-link">SCHEDULE</a><a href="/exhibition" class="ddlink w-dropdown-link">EXHIBITION</a><a href="/nocturnes" class="ddlink w-dropdown-link">NOCTURNES</a><a href="/gn-pro" class="ddlink w-dropdown-link">GN PRO</a><a href="/artscience" class="ddlink w-dropdown-link">ARTSCIENCE NIGHT</a></nav>
       </div>
-    </div>
+      <a href="/venue" class="nav-link w-nav-link">THE VENUE</a><a href="/partners" class="nav-link w-nav-link">PARTNERS</a><a href="https://lesgaragesnumeriques.squarespace.com" target="_blank" class="nav-link w-nav-link">previous editions</a></div>
+  </nav>
+  <div class="text-block"><strong class="bold-text">Bourse/Beurs<br>
+    BRUSSELS</strong><br>
+    <br>
+    7 › 11<br>
+    NOVEMBER<br>
+    2019</div>
+  <div class="menu-button w-nav-button">
+    <div class="icon w-icon-nav-menu"></div>
+  </div>
+</div>
+
 
 <div class="bgvideo2"> </div>
 <div class="contentpage">
@@ -74,7 +86,7 @@
 	        <h2 class="intro-pages venue">A timeless moment</h2>
     <div class="block-editions"> 
       <div class="flex gnpro">
-        <div class="block-50 img-blend"><img src="/uploads/artistes%2021-1.png" alt="" class="imgvenue"></div>
+        <div class="block-50 img-blend"><img src="/thumbs/images/uploads/artistes%2021-1.png" alt="" class="imgvenue"></div>
         <div class="block-50">
           <p class="white">The exhibition represents the central axis of the festival. Made up of ten or so digital and contemporary installations, it propels young local artists into the realm of international figures such as Louise Bourgeois (GN03), Nam June Paik (GN02), Romain Tardy (GN02) or still, Joanie Lemercier (GNOFF). The art pieces on show represent and encompass the philosophy of the project as they explore the correlation between sound and image. Several spaces are available to artists, enabling them to create immersive, interactive and monumental installations that coexist side by side and play with the codes and characteristics of the Bourse. </p>
         </div>
@@ -236,6 +248,33 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
+<script>
+
+
+var launchVideo = function() {
+  var videlem = document.createElement("video"),
+  sourceMP4 = document.createElement("source"),
+  supportsVideoElement = !!document.createElement('video').canPlayType,
+  temp = document.createElement('video'),
+  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
+  
+  videoWrapper = document.getElementById('video-wrapper');
+
+  if (supportsVideoElement && canPlay_MP4) {
+    videlem.id = "video-bg";    
+    sourceMP4.type = "video/mp4";
+    sourceMP4.src = "/videos/SPLITSmp4-transcode.mp4";
+    videlem.appendChild(sourceMP4);
+    videlem.preload = true;
+    videlem.autoplay = true;
+    videlem.muted = true;
+    videlem.loop = true;
+    videlem.setAttribute('playsinline', '');
+    videoWrapper.appendChild(videlem);
+    console.log('launchvideo');
+  }
+}
+</script>
   
 </body>
 </html>
