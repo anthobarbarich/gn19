@@ -8,7 +8,7 @@ type = "category"
 picture = "/uploads/artistes 14.png"
 text = "texte"
 [[blockcontent]]
-picture = ""
+picture = "/uploads/artistes 3.png"
 text = "texte"
 
 +++
