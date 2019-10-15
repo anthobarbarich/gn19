@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/ramzi.md
 - content/lineup/plic:ploc.md
@@ -123,5 +124,4 @@ pages:
 - content/lineup/arnaud-laffond.md
 - content/lineup/transforma-shed.md
 - content/lineup/batu.md
-- content/lineup/stijn.md
 - content/lineup/shackleton-zimpel.md
