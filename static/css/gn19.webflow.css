@@ -547,6 +547,7 @@ a {
   -webkit-transform: translate(50%, 0px) translate(0px, -50%);
   -ms-transform: translate(50%, 0px) translate(0px, -50%);
   transform: translate(50%, 0px) translate(0px, -50%);
+	filter: grayscale(1);
 }
 
 .container-4 {
