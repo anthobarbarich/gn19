@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/johann-baron-lanteigne.md
 - content/lineup/herman-kolgen.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/drew-mcdowall.md
@@ -115,7 +116,6 @@ pages:
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/louise-bourgeois.md
-- content/lineup/johann-baron-lanteigne.md
 - content/lineup/ramzi.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/woody.md
