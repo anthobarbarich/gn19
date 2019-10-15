@@ -5,7 +5,7 @@ layout = "category"
 title = "ArtScience"
 type = "category"
 [[blockcontent]]
-picture = ""
+picture = "/uploads/artistes 14.png"
 text = "texte"
 [[blockcontent]]
 picture = ""
