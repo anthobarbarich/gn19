@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/kate-miller.md
 - content/lineup/kali-malone.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/herman-kolgen.md
@@ -112,7 +113,6 @@ pages:
 - content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
 - content/lineup/plic:ploc.md
-- content/lineup/kate-miller.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
