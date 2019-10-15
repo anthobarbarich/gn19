@@ -96,6 +96,8 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/ann-veronica-janssens.md
+- content/lineup/aisha-devi-mfo.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
@@ -111,7 +113,6 @@ pages:
 - content/lineup/djrum.md
 - content/lineup/cabasa.md
 - content/lineup/batu.md
-- content/lineup/ann-veronica-janssens.md
 - content/lineup/ramzi.md
 - content/lineup/cleveland.md
 - content/lineup/arnaud-laffond.md
@@ -120,7 +121,6 @@ pages:
 - content/lineup/miaux.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
-- content/lineup/aisha-devi-mfo.md
 - content/lineup/martin-messier.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
