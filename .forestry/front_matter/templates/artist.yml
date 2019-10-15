@@ -96,6 +96,8 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/batu.md
+- content/lineup/cleveland.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/aisha-devi-mfo.md
@@ -113,9 +115,7 @@ pages:
 - content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
 - content/lineup/cabasa.md
-- content/lineup/batu.md
 - content/lineup/ramzi.md
-- content/lineup/cleveland.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
