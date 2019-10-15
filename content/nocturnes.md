@@ -5,7 +5,7 @@ layout = "category"
 title = "Nights"
 type = "category"
 [[blockcontent]]
-picture = "/uploads/gnpro2-p-500.jpeg"
+picture = "/uploads/_beursblue.jpg"
 text = "During the Opening Night, one of the highlights of the festival, an artistic project - a live audiovisual performance - by two prominent figures representing the aesthetic of Les Garages Numériques will be presented in an ideal setting: the great hall of the Bourse of Brussels."
 [[blockcontent]]
 picture = "/uploads/gnprosmall-p-500.jpeg"
