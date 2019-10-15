@@ -5,4 +5,4 @@ introtext: ''
 partners: []
 
 ---
-![](/uploads/ALL_SPONSORS.jpg)
+![](/uploads/ALL_SPONSORS-1.jpg)
