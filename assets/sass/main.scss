@@ -216,3 +216,9 @@ a.site-logo {
     from {transform:translateX(100%)}
     to {transform:translateX(0)}
 }
+
+
+@keyframes show-smooth {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}

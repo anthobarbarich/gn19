@@ -204,6 +204,7 @@ a {
   min-width: 100%;
   min-height: 100%;
 	z-index: 1;
+	animation: show-smooth 2s linear;
 }
 
 .hide {
@@ -222,6 +223,7 @@ a {
     height:100%;
     text-align:center;
     box-sizing: border-box;
+	animation: show-smooth 2s linear;
 }
 .video {
     position: absolute;
@@ -1725,6 +1727,12 @@ a {
     display: block;
     color: white;
 }
+
+@keyframes show-smooth {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @font-face {
     font-family: 'Neuemachina';
     src: url('../fonts/NeueMachina-Ultrabold.woff2') format('woff2');
