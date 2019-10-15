@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/reycolino.md
 - content/lineup/martin-messier.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/kate-miller.md
@@ -112,7 +113,6 @@ pages:
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/stijn.md
-- content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
 - content/lineup/plic:ploc.md
 - content/lineup/nicolas-bernier.md
