@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
@@ -111,7 +112,6 @@ pages:
 - content/lineup/cleveland.md
 - content/lineup/cabasa.md
 - content/lineup/aisha-devi-mfo.md
-- content/lineup/woody.md
 - content/lineup/mika-oki.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
