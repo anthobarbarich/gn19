@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/ramzi.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
@@ -121,6 +122,5 @@ pages:
 - content/lineup/plic:ploc.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
-- content/lineup/ramzi.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/miaux.md
