@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/louise-bourgeois.md
@@ -119,7 +120,6 @@ pages:
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
 - content/lineup/aisha-devi-mfo.md
-- content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/refik-anadol.md
 - content/lineup/antoine-de-schuyter.md
