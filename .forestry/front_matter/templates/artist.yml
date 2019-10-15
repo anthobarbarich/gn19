@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/cleveland.md
 - content/lineup/mika-oki.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/batu.md
@@ -112,7 +113,6 @@ pages:
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
 - content/lineup/djrum.md
-- content/lineup/cleveland.md
 - content/lineup/cabasa.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/nicolas-bernier.md
