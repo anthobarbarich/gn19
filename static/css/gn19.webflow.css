@@ -205,6 +205,11 @@ a {
   min-height: 100%;
 	z-index: 1;
 }
+
+.hide {
+	position:absolute;
+	overflow:hidden;
+	left:-9999999px;
 }
 
 #home-video {
