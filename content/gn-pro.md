@@ -1,6 +1,6 @@
 +++
 day = ["Thursday 7"]
-introtext = ""
+introtext = "Professionnal meetings"
 layout = "category"
 title = "GN PRO"
 type = "category"
