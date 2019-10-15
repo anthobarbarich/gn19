@@ -537,18 +537,26 @@ a {
   position: fixed;
   left: auto;
   top: 51%;
-  right: 50%;
+  right: 30%;
   bottom: 0%;
   z-index: -1;
   display: none;
-  max-height: 600px;
-  padding-left: 50%;
-  opacity: 0.77;
+ opacity: 0.77;
+  height: 600px;
+	width: 600px;
   -webkit-transform: translate(50%, 0px) translate(0px, -50%);
   -ms-transform: translate(50%, 0px) translate(0px, -50%);
   transform: translate(50%, 0px) translate(0px, -50%);
-	filter: grayscale(1);
+	background: #7b7bed;
 }
+
+.imgartist img {
+	   max-height:100%; max-width:100%;
+    mix-blend-mode: overlay;
+		filter: grayscale(1);
+
+}
+
 
 .container-4 {
   position: relative;
