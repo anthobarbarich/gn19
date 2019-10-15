@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/ann-veronica-janssens.md
 - content/lineup/ramzi.md
 - content/lineup/cleveland.md
 - content/lineup/mika-oki.md
@@ -122,5 +123,4 @@ pages:
 - content/lineup/refik-anadol.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
-- content/lineup/ann-veronica-janssens.md
 - content/lineup/johann-baron-lanteigne.md
