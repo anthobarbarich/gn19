@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/kali-malone.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/herman-kolgen.md
 - content/lineup/felix-luque-damien-gernay.md
@@ -121,6 +122,5 @@ pages:
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/miaux.md
-- content/lineup/kali-malone.md
 - content/lineup/martin-messier.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
