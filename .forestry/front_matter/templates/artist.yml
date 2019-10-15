@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/herman-kolgen.md
 - content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
 - content/lineup/cleveland.md
@@ -117,7 +118,6 @@ pages:
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/johann-baron-lanteigne.md
-- content/lineup/herman-kolgen.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/transforma-shed.md
 - content/lineup/reycolino.md
