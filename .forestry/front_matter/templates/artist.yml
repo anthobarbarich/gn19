@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/cleveland.md
 - content/lineup/cabasa.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/ramzi.md
@@ -120,7 +121,6 @@ pages:
 - content/lineup/arnaud-laffond.md
 - content/lineup/transforma-shed.md
 - content/lineup/reycolino.md
-- content/lineup/cleveland.md
 - content/lineup/batu.md
 - content/lineup/stijn.md
 - content/lineup/shackleton-zimpel.md
