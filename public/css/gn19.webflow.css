@@ -547,6 +547,7 @@ a {
   -webkit-transform: translate(50%, 0px) translate(0px, -50%);
   -ms-transform: translate(50%, 0px) translate(0px, -50%);
   transform: translate(50%, 0px) translate(0px, -50%);
+	filter: grayscale(1);
 }
 
 .container-4 {
@@ -657,17 +658,18 @@ a {
 }
 
 .section-heading-copy {
-  display: inline-block;
-  margin-top: 90px;
-  margin-right: 116px;
-  margin-bottom: -100px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  color: #1500ff;
-  font-size: 14em;
-  line-height: 1em;
+display: inline;
+    margin-top: 90px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #1500ff;
+    font-size: 14em;
+    line-height: 1em;
+    width: max-content;
 }
 
 .featured-artist {
@@ -940,6 +942,7 @@ a {
     border: none;
     font-size: 2em;
     margin-bottom: 50px;
+	margin-right: 50px;
 }
 .filterselect:focus {
  outline: 0;	   
@@ -1314,6 +1317,17 @@ a {
   .heading-2.underline {
     text-align: left;
   }
+	
+	.filterselect {
+    background: 0 0;
+    border-radius: 0;
+    color: #fff;
+    line-height: 2em;
+    border: none;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+		margin-right: 0px;
+}
   .heading-3 {
     width: 90%;
     margin-right: auto;
