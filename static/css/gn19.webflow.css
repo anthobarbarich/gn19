@@ -1629,8 +1629,7 @@ display: inline;
     margin-top: 0px;
     margin-bottom: 30px;
   }
-  .imgartist-page {
-    margin-bottom: 39px;
+
   }
   .lightbox-link {
     position: relative;
@@ -1664,6 +1663,14 @@ display: inline;
     margin-right: 20px;
     margin-left: 20px;
   }
+	.imgartist img {
+	max-height: 60%;
+    margin-top: 20%;
+    margin-left: 60px;
+	}
+	.block-50.img-blend {
+    margin-bottom: 30px;
+}
 }
 .glitch {
   position: relative;
