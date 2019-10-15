@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/stijn.md
@@ -122,5 +123,4 @@ pages:
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/ramzi.md
 - content/lineup/arnaud-laffond.md
-- content/lineup/woody.md
 - content/lineup/miaux.md
