@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/plic:ploc.md
 - content/lineup/kate-miller.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
@@ -115,7 +116,6 @@ pages:
 - content/lineup/transforma-shed.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
-- content/lineup/plic:ploc.md
 - content/lineup/miaux.md
 - content/lineup/kali-malone.md
 - content/lineup/herman-kolgen.md
