@@ -13,6 +13,7 @@ fields:
   name: introtext
   label: introtext
 pages:
+- content/antoine-est-gentil.md
 - content/schedule.md
 - content/previous-editions.md
 - content/lineup/_index.md
