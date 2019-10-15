@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/ramzi.md
 - content/lineup/cleveland.md
 - content/lineup/mika-oki.md
 - content/lineup/arnaud-laffond.md
@@ -105,7 +106,6 @@ pages:
 - content/lineup/transforma-shed.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
-- content/lineup/ramzi.md
 - content/lineup/plic:ploc.md
 - content/lineup/miaux.md
 - content/lineup/louise-bourgeois.md
