@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/mathieu-zurstrassen.md
 - content/lineup/refik-anadol.md
 - content/lineup/ramzi.md
 - content/lineup/nicolas-bernier.md
@@ -121,6 +122,5 @@ pages:
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/plic:ploc.md
 - content/lineup/mika-oki.md
-- content/lineup/mathieu-zurstrassen.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/miaux.md
