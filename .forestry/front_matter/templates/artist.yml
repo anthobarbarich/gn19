@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/martin-messier.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/kate-miller.md
 - content/lineup/kali-malone.md
@@ -122,5 +123,4 @@ pages:
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/miaux.md
-- content/lineup/martin-messier.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
