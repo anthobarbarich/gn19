@@ -941,6 +941,7 @@ display: inline;
     border: none;
     font-size: 2em;
     margin-bottom: 50px;
+	margin-right: 50px;
 }
 .filterselect:focus {
  outline: 0;	   
@@ -1315,6 +1316,17 @@ display: inline;
   .heading-2.underline {
     text-align: left;
   }
+	
+	.filterselect {
+    background: 0 0;
+    border-radius: 0;
+    color: #fff;
+    line-height: 2em;
+    border: none;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+		margin-right: 0px;
+}
   .heading-3 {
     width: 90%;
     margin-right: auto;
