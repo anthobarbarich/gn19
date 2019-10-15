@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/plic:ploc.md
 - content/lineup/miaux.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/kate-miller.md
@@ -109,7 +110,6 @@ pages:
 - content/lineup/ramzi.md
 - content/lineup/woody.md
 - content/lineup/mika-oki.md
-- content/lineup/plic:ploc.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/martin-messier.md
 - content/lineup/mathieu-zurstrassen.md
