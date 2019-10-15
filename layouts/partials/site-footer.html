@@ -103,7 +103,12 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
-
+<script>
+var timeout = setTimeout(function(){
+    document.getElementById('flowplayer').style.display = 'block';
+    clearTimeout(timeout);
+}, 2500);
+</script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>

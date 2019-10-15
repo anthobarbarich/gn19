@@ -229,6 +229,10 @@ a {
     font-size: 40px;
     text-align: center;
 }
+
+   #flowplayer {
+        display: none;
+    }
 .video-copy.pages {
     position: fixed;
 }
