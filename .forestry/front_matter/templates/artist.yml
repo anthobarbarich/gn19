@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/transforma-shed.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
@@ -117,7 +118,6 @@ pages:
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/woody.md
-- content/lineup/transforma-shed.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/kate-miller.md
 - content/lineup/herman-kolgen.md
