@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/martin-messier.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/kali-malone.md
 - content/lineup/johann-baron-lanteigne.md
@@ -117,7 +118,6 @@ pages:
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
-- content/lineup/martin-messier.md
 - content/lineup/kate-miller.md
 - content/lineup/herman-kolgen.md
 - content/lineup/cabasa.md
