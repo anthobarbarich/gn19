@@ -855,6 +855,8 @@ a {
     font-weight: 400;
     text-transform: capitalize;
 }
+
+.room p {color:white;}
 .room-heading.underline {
     margin-bottom: 3px;
     border-bottom: 1px solid transparent;

@@ -32,14 +32,12 @@
           <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane w--tab-active">
             <div class="room">
               <h2 class="room-heading">Les Garages Numériques Pro: meetings & masterclass 2<br></h2>
-                  <div class="block-editions"> 
-      <div class="flex gnpro">
-        <div class="block-50 img-blend"></div>
-        <div class="block-50">
-          <p class="white">{{.Title}} </p>
-        </div>
-      </div>
-     </div>
+                  {{range where .Site.Pages ".Title" "==" "GN PRO"}}{{range first 1 .Params.blockcontent}}
+ 
+  <p>{{.text}}</p>
+
+
+      {{ end }}{{end}}
             </div>
             <div class="room">
               <h2 class="room-heading">Opening Night : concerts & A/V live shows<br></h2>
@@ -117,7 +115,7 @@
             </div>
 			 <div data-w-tab="Tab 5" class="w-tab-pane">
             <div class="room">
-              <h2 class="room-heading">Exhibition Day 5<br></h2>
+
 				{{range where .Site.Pages ".Params.day" "Monday 11"}}
 				
 				
@@ -134,51 +132,18 @@
 			  </div>
         
             </div>
-          </div>
-          <div data-w-tab="Tab 6" class="tab-pane-tab-1 w-tab-pane">
-            <div class="room">
-              <h2 class="room-heading">Room 1<br></h2>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
+		  </div>
+		    <h2 class="room-heading">Ongoing Exhibition<br></h2>
+				{{range where .Site.Pages ".Params.day" "Exhibition"}}
+		  	
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
                 <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
-                <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
-                <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-            </div>
-            <div class="room">
-              <h2 class="room-heading">Room 2<br></h2>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
-                <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
-                <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-              <div class="block-artist">
-                <div class="hours">18:00-22:00</div>
-                <div class="html-embed-2 w-embed"><br></div>
-                <h3 class="artistname">Artist Name<br></h3>
-                <div class="arti-type">DJ</div>
-              </div>
-            </div>
-          </div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>{{end}}
         </div>
       </div>
     </div>
