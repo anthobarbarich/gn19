@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/plic:ploc.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
@@ -121,6 +122,5 @@ pages:
 - content/lineup/kate-miller.md
 - content/lineup/herman-kolgen.md
 - content/lineup/cabasa.md
-- content/lineup/plic:ploc.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/miaux.md
