@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/djrum.md
 - content/lineup/cleveland.md
 - content/lineup/batu.md
 - content/lineup/antoine-de-schuyter.md
@@ -119,7 +120,6 @@ pages:
 - content/lineup/herman-kolgen.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/drew-mcdowall.md
-- content/lineup/djrum.md
 - content/lineup/cabasa.md
 - content/lineup/plic:ploc.md
 - content/lineup/arnaud-laffond.md
