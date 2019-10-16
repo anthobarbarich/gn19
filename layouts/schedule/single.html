@@ -35,6 +35,7 @@
                   {{range where .Site.Pages ".Title" "==" "GN PRO"}}{{range first 1 .Params.blockcontent}}
  
   <p>{{.text}}</p>
+				<a href="/gn-pro" class="linkartist">More info<br></a>
 
 
       {{ end }}{{end}}
@@ -115,7 +116,7 @@
             </div>
 			 <div data-w-tab="Tab 5" class="w-tab-pane">
             <div class="room">
-
+ 
 				{{range where .Site.Pages ".Params.day" "Monday 11"}}
 				
 				
