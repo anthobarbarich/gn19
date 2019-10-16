@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
 - content/lineup/martin-messier.md
@@ -112,7 +113,6 @@ pages:
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/refik-anadol.md
 - content/lineup/ramzi.md
-- content/lineup/nicolas-bernier.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
