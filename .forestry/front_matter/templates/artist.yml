@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/refik-anadol.md
 - content/lineup/ramzi.md
@@ -118,7 +119,6 @@ pages:
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
-- content/lineup/stijn.md
 - content/lineup/kate-miller.md
 - content/lineup/herman-kolgen.md
 - content/lineup/cabasa.md
