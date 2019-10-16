@@ -96,6 +96,8 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/refik-anadol.md
+- content/lineup/ramzi.md
 - content/lineup/plic:ploc.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
@@ -112,8 +114,6 @@ pages:
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/aisha-devi-mfo.md
-- content/lineup/refik-anadol.md
-- content/lineup/ramzi.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
