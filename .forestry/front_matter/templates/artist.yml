@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/arnaud-laffond.md
 - content/lineup/vinciane.md
 - content/lineup/demute-horszone.md
 - content/lineup/ohme.md
@@ -114,7 +115,6 @@ pages:
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/cabasa.md
 - content/lineup/miaux.md
-- content/lineup/arnaud-laffond.md
 - content/lineup/shackelton-zimpel.md
 - content/lineup/cleveland.md
 - content/lineup/woody.md

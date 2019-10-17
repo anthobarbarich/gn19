@@ -8,6 +8,6 @@ perf = "VJ"
 picture = "/uploads/Arnaud Laffond.jpg"
 room = "Main Room"
 time = ""
-website = ""
+website = "http://www.arnaudlaffond.com/"
 
 +++
