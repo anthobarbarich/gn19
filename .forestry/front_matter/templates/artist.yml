@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/singularite-tech.md
 - content/lineup/ohme.md
 - content/lineup/demute-horszone.md
@@ -103,7 +104,6 @@ pages:
 - content/lineup/le-motel.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/arnaud-laffond.md
-- content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/refik-anadol.md
 - content/lineup/nicolas-bernier.md
