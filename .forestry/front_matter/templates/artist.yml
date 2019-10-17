@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/singularite-tech.md
 - content/lineup/refik-anadol.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
