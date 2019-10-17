@@ -96,8 +96,8 @@ fields:
       path: ''
   label: category
 pages:
-- content/lineup/ohme.md
 - content/lineup/autre-ecole.md
+- content/lineup/ohme.md
 - content/lineup/le-motel.md
 - content/lineup/singularite-tech.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
