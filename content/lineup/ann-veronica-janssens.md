@@ -11,4 +11,4 @@ time = ""
 website = ""
 
 +++
-![](/uploads/AnnVeroBitter-salty-acid-sweet-2019.jpg)
+![](/uploads/Bitter-salty-acid-sweet-2019.jpg "Bitter Salty Acid Sweet 2019")![](/uploads/Untitled (Blue Glitter), 2015 (1).jpg "Untitled (Blue Glitter) 2015")
