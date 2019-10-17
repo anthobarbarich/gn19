@@ -11,3 +11,4 @@ time = ""
 website = ""
 
 +++
+![](/uploads/Piedra_01_12_3200.jpg "Piedra")![](/uploads/DWI-CLONES,2013.jpg "DWI - Clones 2013")
