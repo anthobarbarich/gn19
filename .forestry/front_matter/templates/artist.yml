@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/martin-messier.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/felix-luque-damien-gernay.md
@@ -116,7 +117,6 @@ pages:
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
 - content/lineup/mathieu-zurstrassen.md
-- content/lineup/martin-messier.md
 - content/lineup/kali-malone.md
 - content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
