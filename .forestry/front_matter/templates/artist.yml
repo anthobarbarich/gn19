@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/cabasa.md
 - content/lineup/miaux.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/shackelton-zimpel.md
@@ -124,4 +125,3 @@ pages:
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/kate-miller.md
 - content/lineup/herman-kolgen.md
-- content/lineup/cabasa.md
