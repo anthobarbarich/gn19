@@ -96,12 +96,12 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/le-motel.md
+- content/lineup/demute-horszone.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/vinciane.md
-- content/lineup/demute-horszone.md
 - content/lineup/ohme.md
-- content/lineup/le-motel.md
 - content/lineup/singularite-tech.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/felix-luque-damien-gernay.md
