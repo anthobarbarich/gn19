@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/vinciane.md
 - content/lineup/demute-horszone.md
 - content/lineup/ohme.md
 - content/lineup/le-motel.md
