@@ -96,8 +96,8 @@ fields:
       path: ''
   label: category
 pages:
-- content/lineup/arnaud-laffond.md
 - content/lineup/miaux.md
+- content/lineup/arnaud-laffond.md
 - content/lineup/shackelton-zimpel.md
 - content/lineup/cleveland.md
 - content/lineup/woody.md
