@@ -96,11 +96,11 @@ fields:
       path: ''
   label: category
 pages:
-- content/lineup/singularite-tech.md
 - content/lineup/autre-ecole.md
+- content/lineup/le-motel.md
+- content/lineup/singularite-tech.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/felix-luque-damien-gernay.md
-- content/lineup/le-motel.md
 - content/lineup/refik-anadol.md
 - content/lineup/nicolas-bernier.md
 - content/lineup/mika-oki.md
