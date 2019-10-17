@@ -11,3 +11,4 @@ time = ""
 website = ""
 
 +++
+![](/uploads/ADSLC2A4150.jpg)![](/uploads/ADSLC2A4180 (1).jpg)

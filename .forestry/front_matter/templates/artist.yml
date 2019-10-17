@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/antoine-de-schuyter.md
 - content/lineup/ann-veronica-janssens.md
 - content/lineup/cabasa.md
 - content/lineup/miaux.md
@@ -120,7 +121,6 @@ pages:
 - content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
 - content/lineup/batu.md
-- content/lineup/antoine-de-schuyter.md
 - content/lineup/aisha-devi-mfo.md
 - content/lineup/thomas-vaquie-yannick-jacquet.md
 - content/lineup/kate-miller.md
