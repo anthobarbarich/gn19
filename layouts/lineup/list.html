@@ -39,7 +39,20 @@
 		{{ else }}
 		  {{ .Params.perf }}
 		  {{end}}</div>
-      </a> {{end}} </div>
+      </a> {{end}}
+	    <h2 class="room-heading" style="margin-top:50px;">Ongoing Exhibition<br></h2>
+				{{range where .Site.Pages ".Params.day" "Exhibition"}}
+		  	
+				<div class="block-artist">
+<!--                <div class="hours">18:00-22:00</div>-->
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="{{ .Permalink}}" class="w-inline-block">
+                  <h3 class="artistname">{{.Params.name}}<br></h3>
+                  <div class="arti-type">{{.Params.perf}}</div>
+                </a>
+              </div>{{end}}
+	  </div>
+	  
   </div>
   <div class="w-container">{{.Content}}</div>
   {{ partial "cta.html" . }} </div>
