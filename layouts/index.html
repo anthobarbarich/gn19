@@ -60,7 +60,7 @@
   <div class="background-video">
     <a href="#artists" class="scrolldown w-inline-block">
       <div class="div-block-3">
-        <div class="text-block-6">Digital Arts Festival</div>
+        <div class="text-block-6 glitch" data-text="Digital Arts Festival" style="transform: rotate(90deg);">Digital Arts Festival</div>
       </div>
       <div class="arrow">↓</div>
     </a>
@@ -128,7 +128,7 @@
  
     </div>
     <div class="featured-artist" data-ix="artistnamemoving">
-      <div class="range-artist"> {{range where .Site.RegularPages "Section" "==" "lineup"}}
+      <div class="range-artist"> {{range shuffle (where .Site.RegularPages "Section" "==" "lineup")}}
         <h2 class="section-heading-copy">{{.Params.name}}<br></h2>{{end}}
       </div>
     </div>
