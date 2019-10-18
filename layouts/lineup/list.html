@@ -33,22 +33,30 @@
     </div>
 		
       {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images{{ .Params.picture }}" src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" width="600" height="600"></div>
-      <h2 class="lineup-heading">{{ .Params.name }}</h2>
-      <div class="arti-type lineup2">{{ if eq .Params.perf "A/V"}}
-		  A/V SHOW
-		{{ else }}
-		  {{ .Params.perf }}
-		  {{end}}</div>
+      <div class="testBlock">
+        <h2 class="lineup-heading">{{ .Params.name }}
+        <span class="arti-type lineup2"><sup >{{ if eq .Params.perf "A/V"}}
+          A/V SHOW
+          {{ else }}
+            {{ .Params.perf }}
+            {{end}}
+        </sup></span></h2>
+        <!-- <div class="arti-type lineup2"> -->
+      
+       
+		  
+    </div>
       </a> {{end}}
 	    <h2 class="room-heading" style="margin-top:50px;">Ongoing Exhibition<br></h2>
 				{{range where .Site.Pages ".Params.day" "Exhibition"}}
 		  	
 				<div class="block-artist">
 <!--                <div class="hours">18:00-22:00</div>-->
-                <div class="html-embed-2 w-embed"><br></div>
+                <!-- <div class="html-embed-2 w-embed"><br></div> -->
                 <a href="{{ .Permalink}}" class="w-inline-block">
-                  <h3 class="artistname">{{.Params.name}}<br></h3>
-                  <div class="arti-type">{{.Params.perf}}</div>
+                  <h3 class="artistname">{{.Params.name}}
+                    <div class="arti-type lineup2"><sup>{{.Params.perf}}</sup></div>
+                  </h3>
                 </a>
               </div>{{end}}
 	  </div>
