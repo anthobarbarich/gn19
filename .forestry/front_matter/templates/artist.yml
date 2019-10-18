@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/plicploc.md
 - content/lineup/le-motel.md
 - content/lineup/vinciane.md
 - content/lineup/demute-horszone.md
@@ -122,7 +123,6 @@ pages:
 - content/lineup/stijn.md
 - content/lineup/reycolino.md
 - content/lineup/ramzi.md
-- content/lineup/plic:ploc.md
 - content/lineup/kali-malone.md
 - content/lineup/drew-mcdowall.md
 - content/lineup/djrum.md
