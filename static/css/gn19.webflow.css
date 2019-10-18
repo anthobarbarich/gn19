@@ -662,6 +662,9 @@ a {
     mix-blend-mode: overlay;
     filter: grayscale(1);
 }
+.block-50.img-blend:hover {
+    background: none;
+}
 .container-4 {
     position: relative;
 }
