@@ -656,20 +656,17 @@ a {
     opacity: 0.77;
     height: 600px;
     width: 600px;
-    -webkit-transform: translate(50%, 0px) translate(0px, -50%);
-    -ms-transform: translate(50%, 0px) translate(0px, -50%);
-    transform: translate(50%, 0px) translate(0px, -50%);
-    background: #7b7bed;
+    transition: 0.5s linear;
+    /* background: #7b7bed; */
 }
 .imgartist img {
     max-height: 100%;
     max-width: 100%;
     mix-blend-mode: overlay;
     filter: grayscale(1);
+    
 }
-.block-50.img-blend:hover {
-    background: none;
-}
+
 .container-4 {
     position: relative;
 }
@@ -1021,13 +1018,18 @@ a {
 .block-50.img-blend {
     background: rgb(105, 108, 232);
 	max-height: 460px;
-	
+}
+.block-50.img-blend:hover {
+    background: none;
+    transition-timing-function: ease-out;
+    transition-duration: 3050ms;
+
 }
 .block-50.img-blend img {
     filter: saturate(0);
     mix-blend-mode: overlay;
     width: 100%;
-    max-height: 100%
+    max-height: 100%;
 }
 .img-blend img {
     background: rgb(105, 108, 232);
