@@ -15,7 +15,7 @@ gulp.task('minify', () => {
 
 gulp.task('images', () =>
     gulp.src(['static/uploads/*', '!static/uploads/*.svg'])
-        .pipe(newer('public/thumbs/images/uploads'))
+        .pipe(newer('public/uploads'))
         .pipe(imagemin([    
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
