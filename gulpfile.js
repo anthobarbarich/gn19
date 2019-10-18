@@ -14,7 +14,7 @@ gulp.task('minify', () => {
 });
 
 gulp.task('images', () =>
-    gulp.src(['static/images/*', '!static/images/*.svg'])
+    gulp.src(['static/uploads/*', '!static/uploads/*.svg'])
 //        .pipe(gulpNewer('static/thumbs/images/uploads'))
         .pipe(imagemin([    
             imagemin.gifsicle({interlaced: true}),
