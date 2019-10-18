@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 const gulpNewer = require("gulp-newer");
+const changed = require('gulp-changed');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
@@ -45,7 +46,7 @@ gulp.task('images', () =>
 
 gulp.task('images', () =>
     gulp.src(['static/uploads/*', '!static/uploads/*.svg'])
-        .pipe(gulpNewer('static/thumbs/images/uploads'))
+        .pipe(gulpNewer('thumbs/images/uploads'))
         .pipe(imagemin([    
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
