@@ -640,6 +640,11 @@ a {
     background-image: linear-gradient(180deg, #000, #858585 53%, #fff);
     text-align: center;
 }
+.testBlock
+{
+    display: inline-flex;
+    flex-direction: row;
+}
 .imgartist {
     position: fixed;
     left: auto;
@@ -887,19 +892,18 @@ a {
     color: #fff;
     font-size: 17px;
 }
+.arti-type.lineup2 sup{
+        top: 0.5em;
+        font-size: 18px;
+        vertical-align: top;
+        margin-left: -10px;
+}
 .arti-type {
     display: inline-block;
-    margin-left: 9px;
-    -webkit-transform: translate(0px, -19px);
-    -ms-transform: translate(0px, -19px);
-    transform: translate(0px, -19px);
     color: #fff;
     font-size: 12px;
 }
 .arti-type.lineup2 {
-    -webkit-transform: translate(0px, -24px);
-    -ms-transform: translate(0px, -24px);
-    transform: translate(0px, -24px);
     font-size: 15px;
 }
 .html-embed-2 {
