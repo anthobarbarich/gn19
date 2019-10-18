@@ -656,8 +656,10 @@ a {
     opacity: 0.77;
     height: 600px;
     width: 600px;
-    transition: 0.5s linear;
-    /* background: #7b7bed; */
+    -webkit-transform: translate(50%, 0px) translate(0px, -50%);
+    -ms-transform: translate(50%, 0px) translate(0px, -50%);
+    transform: translate(50%, 0px) translate(0px, -50%);
+    background: #7b7bed;
 }
 .imgartist img {
     max-height: 100%;
