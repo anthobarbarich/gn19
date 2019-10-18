@@ -6,7 +6,7 @@
     <meta name="author" content='Studio Colibri' />
     <meta name="description" content='Digital Arts Festival - 7-11/11 - La Bourse Brussels' />
     <meta property="og:type" content="website" />
-  	<meta property="og:url" content="https://gn19.netlify.com/lineup/" />
+  	<meta property="og:url" content="https://lesgaragesnumeriques.com/lineup/" />
     <meta property="og:title" content="Les Garages Numériques 2019  | Line-Up" />
     <meta property="og:description" content='Digital Arts Festival - 7-11/11 - La Bourse Brussels' />
     <meta property="og:image" content="https://www.lesgaragesnumeriques.com/assets/img/garages-numeriques-opengraph.jpg" />
@@ -14,6 +14,8 @@
 	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
 	<link href="/css/webflow.css" rel="stylesheet" type="text/css">
   <link href="/css/gn19.webflow.css" rel="stylesheet" type="text/css">
+			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
   
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
@@ -36,12 +38,22 @@
 
 </head>
 <body class="pages">
-	<div data-poster-url="/videos/SPLITSmp4-poster-00001.jpg" data-video-urls="videos/SPLITSmp4-transcode.mp4,videos/SPLITSmp4-transcode.webm" data-autoplay="false" data-loop="true" data-wf-ignore="true" class="video-copy w-background-video w-background-video-atom pages" id="flowplayer">
-  <video autoplay="false" loop="" style="background-image:url(&quot;videos/SPLITSmp4-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true">
-    <source src="/videos/SPLITSmp4-transcode.mp4" data-wf-ignore="true">
-    <source src="/videos/SPLITSmp4-transcode.webm" data-wf-ignore="true">
-  </video>
-</div>
+	
+<div id="video-wrapper"></div><a class="site-logo" href="https://lesgaragesnumeriques.com">
+		<h3 class="site-logo__text">
+			<span class="site-logo__text__span">Les</span>
+			<span class="site-logo__text__span">Garages</span>
+			<span class="site-logo__text__span">Numériques</span>
+		</h3>
+		<div class="site-logo__bars">
+			<div class="site-logo__bar one"></div>
+			<div class="site-logo__bar two"></div>
+			<div class="site-logo__bar three"></div>
+			<div class="site-logo__bar four"></div>
+			<div class="site-logo__bar five"></div>
+			<div class="site-logo__bar six" id="sixth-bar"></div>
+		</div>
+	</a>
 <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar w-nav"><a href="/index.html" class="brand w-nav-brand w--current"><img src="/images/logo.svg" alt="" class="image"></a>
   <nav role="navigation" class="nav-menu w-nav-menu">
     <div class="container-3 w-container"><a href="/lineup" class="nav-link w-nav-link">Line-Up</a>
@@ -50,7 +62,7 @@
           <div class="icon-2 w-icon-dropdown-toggle"></div>
           <div class="text-block-5">PROGRAM</div>
         </div>
-        <nav class="dropdown-list w-dropdown-list"><a href="/schedule" class="ddlink w-dropdown-link">SCHEDULE</a><a href="/exhibition" class="ddlink w-dropdown-link">EXHIBITION</a><a href="/nocturnes" class="ddlink w-dropdown-link">NOCTURNES</a><a href="/gn-pro" class="ddlink w-dropdown-link">GN PRO</a><a href="/artscience" class="ddlink w-dropdown-link">ARTSCIENCE NIGHT</a></nav>
+        <nav class="dropdown-list w-dropdown-list"><a href="/schedule" class="ddlink w-dropdown-link">SCHEDULE</a><a href="/exhibition" class="ddlink w-dropdown-link">EXHIBITION</a><a href="/nocturnes" class="ddlink w-dropdown-link">NIGHTS</a><a href="/gn-pro" class="ddlink w-dropdown-link">GN PRO</a></nav>
       </div>
       <a href="/venue" class="nav-link w-nav-link">THE VENUE</a><a href="/partners" class="nav-link w-nav-link">PARTNERS</a><a href="https://lesgaragesnumeriques.squarespace.com" target="_blank" class="nav-link w-nav-link">previous editions</a></div>
   </nav>
@@ -92,154 +104,286 @@
         <label for="selectcateg" style="color:white;font-weight: 300;">Filter by Category</label>
         <select class="filterselect" id="selectcateg" onchange="filterSelection('selectday', this.value)">
           <option value='all'>All</option>
-          <option value='Nocturnes'>Nocturnes</option>
+          <option value='Nocturnes'>Nights</option>
           <option value='Exhibition'>Exhibition</option>
-          <option value='ArtScience'>ArtScience Night</option>
-          <option value='Gn Pro'>GN PRO</option>      </select>
+    </select>
       </div>
     </div>
 		
-       <a style="display: block;" href="https://gn19.netlify.com/lineup/aisha-devi-mfo/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2029.png"  alt="Aïsha Devi ft. MFO" width="600" height="600"></div>
+       <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/aisha-devi-mfo/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2029.jpg" src="/compressed/images/uploads/artistes%2029.jpg"  alt="Aïsha Devi ft. MFO" width="600" height="600"></div>
       <h2 class="lineup-heading">Aïsha Devi ft. MFO</h2>
       <div class="arti-type lineup2">
 		  A/V SHOW
 		</div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/ann-veronica-janssens/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2011.png"  alt="Ann Veronica Janssens" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/ann-veronica-janssens/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2011.jpg" src="/compressed/images/uploads/artistes%2011.jpg"  alt="Ann Veronica Janssens" width="600" height="600"></div>
       <h2 class="lineup-heading">Ann Veronica Janssens</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/antoine-de-schuyter/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%202.png"  alt="Antoine De Schuyter" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/antoine-de-schuyter/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%202.jpg" src="/compressed/images/uploads/artistes%202.jpg"  alt="Antoine De Schuyter" width="600" height="600"></div>
       <h2 class="lineup-heading">Antoine De Schuyter</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/arnaud-laffond/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images"  alt="Arnaud Laffond" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/arnaud-laffond/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/Arnaud%20Laffond.jpg" src="/compressed/images/uploads/Arnaud%20Laffond.jpg"  alt="Arnaud Laffond" width="600" height="600"></div>
       <h2 class="lineup-heading">Arnaud Laffond</h2>
       <div class="arti-type lineup2">
 		  VJ
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/batu/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2012.png"  alt="Batu" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/batu/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2012.jpg" src="/compressed/images/uploads/artistes%2012.jpg"  alt="Batu" width="600" height="600"></div>
       <h2 class="lineup-heading">Batu</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/cabasa/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images"  alt="Cabasa" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/cabasa/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/cabasasite.jpg" src="/compressed/images/uploads/cabasasite.jpg"  alt="Cabasa" width="600" height="600"></div>
       <h2 class="lineup-heading">Cabasa</h2>
       <div class="arti-type lineup2">
 		  Live
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/cleveland/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2015.png"  alt="Cleveland" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/cleveland/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2015.jpg" src="/compressed/images/uploads/artistes%2015.jpg"  alt="Cleveland" width="600" height="600"></div>
       <h2 class="lineup-heading">Cleveland</h2>
       <div class="arti-type lineup2">
 		  Live
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/djrum/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2017.png"  alt="Djrum" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/demute-horszone/" class="filterDiv lineup w-inline-block Thursday 7 GN Pro" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images" src="/compressed/images"  alt="Demute &amp; Hors Zone" width="600" height="600"></div>
+      <h2 class="lineup-heading">Demute &amp; Hors Zone</h2>
+      <div class="arti-type lineup2">
+		  Talk
+		  </div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/djrum/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2017.jpg" src="/compressed/images/uploads/artistes%2017.jpg"  alt="Djrum" width="600" height="600"></div>
       <h2 class="lineup-heading">Djrum</h2>
       <div class="arti-type lineup2">
 		  Live
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/drew-mcdowall/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%209.png"  alt="Drew McDowall ft. Florence To" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/drew-mcdowall/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%209.jpg" src="/compressed/images/uploads/artistes%209.jpg"  alt="Drew McDowall ft. Florence To" width="600" height="600"></div>
       <h2 class="lineup-heading">Drew McDowall ft. Florence To</h2>
       <div class="arti-type lineup2">
 		  A/V SHOW
 		</div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/felix-luque-damien-gernay/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2016.png"  alt="Félix Luque et Damien Gernay" width="600" height="600"></div>
-      <h2 class="lineup-heading">Félix Luque et Damien Gernay</h2>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/felix-luque-damien-gernay/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2016.jpg" src="/compressed/images/uploads/artistes%2016.jpg"  alt="Félix Luque &amp; Damien Gernay" width="600" height="600"></div>
+      <h2 class="lineup-heading">Félix Luque &amp; Damien Gernay</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/herman-kolgen/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/Kolgen.jpg"  alt="Herman Kolgen" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/herman-kolgen/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/Kolgen.jpg" src="/compressed/images/uploads/Kolgen.jpg"  alt="Herman Kolgen" width="600" height="600"></div>
       <h2 class="lineup-heading">Herman Kolgen</h2>
       <div class="arti-type lineup2">
 		  A/V SHOW
 		</div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/johann-baron-lanteigne/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2031.png"  alt="Johann Baron Lanteigne" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/johann-baron-lanteigne/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2031.jpg" src="/compressed/images/uploads/artistes%2031.jpg"  alt="Johann Baron Lanteigne" width="600" height="600"></div>
       <h2 class="lineup-heading">Johann Baron Lanteigne</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/kali-malone/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2022.png"  alt="Kali Malone" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/kali-malone/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2022.jpg" src="/compressed/images/uploads/artistes%2022.jpg"  alt="Kali Malone" width="600" height="600"></div>
       <h2 class="lineup-heading">Kali Malone</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/kate-miller/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%204.png"  alt="Kate Miller" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/kate-miller/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%204.png" src="/compressed/images/uploads/artistes%204.png"  alt="Kate Miller" width="600" height="600"></div>
       <h2 class="lineup-heading">Kate Miller</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/louise-bourgeois/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2026.png"  alt="Louise Bourgeois" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/le-motel/" class="filterDiv lineup w-inline-block Thursday 7 GN Pro" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images" src="/compressed/images"  alt="Le Motel" width="600" height="600"></div>
+      <h2 class="lineup-heading">Le Motel</h2>
+      <div class="arti-type lineup2">
+		  Talk
+		  </div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/louise-bourgeois/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2026.jpg" src="/compressed/images/uploads/artistes%2026.jpg"  alt="Louise Bourgeois" width="600" height="600"></div>
       <h2 class="lineup-heading">Louise Bourgeois</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/martin-messier/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%208.png"  alt="Martin Messier" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/martin-messier/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%208.jpg" src="/compressed/images/uploads/artistes%208.jpg"  alt="Martin Messier" width="600" height="600"></div>
       <h2 class="lineup-heading">Martin Messier</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/mathieu-zurstrassen/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2020.png"  alt="Mathieu Zurstrassen" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/mathieu-zurstrassen/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2020.jpg" src="/compressed/images/uploads/artistes%2020.jpg"  alt="Mathieu Zurstrassen" width="600" height="600"></div>
       <h2 class="lineup-heading">Mathieu Zurstrassen</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/miaux/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes8.jpg"  alt="Miaux" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/miaux/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2027.jpg" src="/compressed/images/uploads/artistes%2027.jpg"  alt="Miaux" width="600" height="600"></div>
       <h2 class="lineup-heading">Miaux</h2>
       <div class="arti-type lineup2">
 		  Live
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/mika-oki/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2028.png"  alt="Mika Oki" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/mika-oki/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2028.jpg" src="/compressed/images/uploads/artistes%2028.jpg"  alt="Mika Oki" width="600" height="600"></div>
       <h2 class="lineup-heading">Mika Oki</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/nicolas-bernier/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2013.png"  alt="Nicolas Bernier" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/nicolas-bernier/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2013.jpg" src="/compressed/images/uploads/artistes%2013.jpg"  alt="Nicolas Bernier" width="600" height="600"></div>
       <h2 class="lineup-heading">Nicolas Bernier</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/plicploc/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/visuels%20artistes-06.jpg"  alt="Plic:Ploc" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/ohme/" class="filterDiv lineup w-inline-block Thursday 7 GN Pro" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images" src="/compressed/images"  alt="Ohme" width="600" height="600"></div>
+      <h2 class="lineup-heading">Ohme</h2>
+      <div class="arti-type lineup2">
+		  Talk
+		  </div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/plicploc/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2030.jpg" src="/compressed/images/uploads/artistes%2030.jpg"  alt="Plic:Ploc" width="600" height="600"></div>
       <h2 class="lineup-heading">Plic:Ploc</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/ramzi/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2032.png"  alt="RAMZi" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/ramzi/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2032.jpg" src="/compressed/images/uploads/artistes%2032.jpg"  alt="RAMZi" width="600" height="600"></div>
       <h2 class="lineup-heading">RAMZi</h2>
       <div class="arti-type lineup2">
 		  Live
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/refik-anadol/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2033.png"  alt="Refik Anadol" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/refik-anadol/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2033.jpg" src="/compressed/images/uploads/artistes%2033.jpg"  alt="Refik Anadol" width="600" height="600"></div>
       <h2 class="lineup-heading">Refik Anadol</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/reycolino/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%20.png"  alt="Rey Colino" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/reycolino/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%20.jpg" src="/compressed/images/uploads/artistes%20.jpg"  alt="Rey Colino" width="600" height="600"></div>
       <h2 class="lineup-heading">Rey Colino</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/stijn/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2025.png"  alt="Stijn Demeulenaere" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/shackelton-zimpel/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/shackleton.jpg" src="/compressed/images/uploads/shackleton.jpg"  alt="Shackleton ft. Zimpel" width="600" height="600"></div>
+      <h2 class="lineup-heading">Shackleton ft. Zimpel</h2>
+      <div class="arti-type lineup2">
+		  A/V SHOW
+		</div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/singularite-tech/" class="filterDiv lineup w-inline-block Thursday 7 GN Pro" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images" src="/compressed/images"  alt="Singularité(s) / Tech" width="600" height="600"></div>
+      <h2 class="lineup-heading">Singularité(s) / Tech</h2>
+      <div class="arti-type lineup2">
+		  Talk
+		  </div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/stijn/" class="filterDiv lineup w-inline-block Thursday 7 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2025.jpg" src="/compressed/images/uploads/artistes%2025.jpg"  alt="Stijn Demeulenaere" width="600" height="600"></div>
       <h2 class="lineup-heading">Stijn Demeulenaere</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/thomas-vaquie-yannick-jacquet/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/NONE.png"  alt="Thomas Vaquié et Yannick Jacquet" width="600" height="600"></div>
-      <h2 class="lineup-heading">Thomas Vaquié et Yannick Jacquet</h2>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/thomas-vaquie-yannick-jacquet/" class="filterDiv lineup w-inline-block Exhibition Exhibition" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/NONE.png" src="/compressed/images/uploads/NONE.png"  alt="NONE &amp; Yannick Jacquet" width="600" height="600"></div>
+      <h2 class="lineup-heading">NONE &amp; Yannick Jacquet</h2>
       <div class="arti-type lineup2">
 		  Exhibition
 		  </div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/transforma-shed/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2035.png"  alt="Transforma ft. Shed" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/transforma-shed/" class="filterDiv lineup w-inline-block Friday 8 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2035.jpg" src="/compressed/images/uploads/artistes%2035.jpg"  alt="Transforma ft. Shed" width="600" height="600"></div>
       <h2 class="lineup-heading">Transforma ft. Shed</h2>
       <div class="arti-type lineup2">
 		  A/V SHOW
 		</div>
-      </a>  <a style="display: block;" href="https://gn19.netlify.com/lineup/woody/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img src="/compressed/images/uploads/artistes%2037.png"  alt="Woody &#39;92" width="600" height="600"></div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/vinciane/" class="filterDiv lineup w-inline-block Thursday 7 GN Pro" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images" src="/compressed/images"  alt="Vinciane Godfrind" width="600" height="600"></div>
+      <h2 class="lineup-heading">Vinciane Godfrind</h2>
+      <div class="arti-type lineup2">
+		  Talk
+		  </div>
+      </a>  <a style="display: block;" href="https://lesgaragesnumeriques.com/lineup/woody/" class="filterDiv lineup w-inline-block Sunday 10 Nocturnes" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images/uploads/artistes%2037.jpg" src="/compressed/images/uploads/artistes%2037.jpg"  alt="Woody &#39;92" width="600" height="600"></div>
       <h2 class="lineup-heading">Woody &#39;92</h2>
       <div class="arti-type lineup2">
 		  DJ Set
 		  </div>
-      </a>  </div>
+      </a> 
+	    <h2 class="room-heading" style="margin-top:50px;">Ongoing Exhibition<br></h2>
+				
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/ann-veronica-janssens/" class="w-inline-block">
+                  <h3 class="artistname">Ann Veronica Janssens<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/antoine-de-schuyter/" class="w-inline-block">
+                  <h3 class="artistname">Antoine De Schuyter<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/felix-luque-damien-gernay/" class="w-inline-block">
+                  <h3 class="artistname">Félix Luque &amp; Damien Gernay<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/johann-baron-lanteigne/" class="w-inline-block">
+                  <h3 class="artistname">Johann Baron Lanteigne<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/louise-bourgeois/" class="w-inline-block">
+                  <h3 class="artistname">Louise Bourgeois<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/martin-messier/" class="w-inline-block">
+                  <h3 class="artistname">Martin Messier<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/mathieu-zurstrassen/" class="w-inline-block">
+                  <h3 class="artistname">Mathieu Zurstrassen<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/mika-oki/" class="w-inline-block">
+                  <h3 class="artistname">Mika Oki<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/nicolas-bernier/" class="w-inline-block">
+                  <h3 class="artistname">Nicolas Bernier<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/refik-anadol/" class="w-inline-block">
+                  <h3 class="artistname">Refik Anadol<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+		  	
+				<div class="block-artist">
+
+                <div class="html-embed-2 w-embed"><br></div>
+                <a href="https://lesgaragesnumeriques.com/lineup/thomas-vaquie-yannick-jacquet/" class="w-inline-block">
+                  <h3 class="artistname">NONE &amp; Yannick Jacquet<br></h3>
+                  <div class="arti-type">Exhibition</div>
+                </a>
+              </div>
+	  </div>
+	  
   </div>
   <div class="w-container"></div>
    <div class="cta">
@@ -258,6 +402,41 @@
       <div class="txtblocleft">© Les Garages Numériques 2019 <br></div><a href="https://www.facebook.com/lesgaragesnumeriques/" target="_blank" class="linksm">Facebook</a><a href="https://www.instagram.com/lesgaragesnumeriques/" class="linksm">Instagram</a><a href="mailto:dorian.meeus@undermynetwork.com?subject=Mail%20From%20Website" class="linksm">Contact</a></div>
   </div>  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="/js/webflow.js" type="text/javascript"></script>
+<script>
+
+
+var launchVideo = function() {
+  var videlem = document.createElement("video"),
+  sourceMP4 = document.createElement("source"),
+  supportsVideoElement = !!document.createElement('video').canPlayType,
+  temp = document.createElement('video'),
+  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
+  
+  videoWrapper = document.getElementById('video-wrapper');
+
+  if (supportsVideoElement && canPlay_MP4) {
+    videlem.id = "video-bg";    
+    sourceMP4.type = "video/mp4";
+    sourceMP4.src = "/videos/SPLITSmp4-transcode.mp4";
+    videlem.appendChild(sourceMP4);
+    videlem.preload = true;
+    videlem.autoplay = true;
+    videlem.muted = true;
+    videlem.loop = true;
+    videlem.setAttribute('playsinline', '');
+    videoWrapper.appendChild(videlem);
+    console.log('launchvideo');
+  }
+}
+
+
+
+window.onload = function() {
+
+      launchVideo();
+ 
+}
+</script>
 <script type="text/javascript">
 
 function filterSelection (idDay, idCat)
@@ -354,33 +533,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
-<script>
 
-
-var launchVideo = function() {
-  var videlem = document.createElement("video"),
-  sourceMP4 = document.createElement("source"),
-  supportsVideoElement = !!document.createElement('video').canPlayType,
-  temp = document.createElement('video'),
-  canPlay_MP4 = temp.canPlayType('video/mp4; codecs="avc1.42E01E,mp4a.40.2"'),
-  
-  videoWrapper = document.getElementById('video-wrapper');
-
-  if (supportsVideoElement && canPlay_MP4) {
-    videlem.id = "video-bg";    
-    sourceMP4.type = "video/mp4";
-    sourceMP4.src = "/videos/SPLITSmp4-transcode.mp4";
-    videlem.appendChild(sourceMP4);
-    videlem.preload = true;
-    videlem.autoplay = true;
-    videlem.muted = true;
-    videlem.loop = true;
-    videlem.setAttribute('playsinline', '');
-    videoWrapper.appendChild(videlem);
-    console.log('launchvideo');
-  }
-}
-</script>
   
 </body>
 </html>
