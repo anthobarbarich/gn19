@@ -4,8 +4,6 @@ const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const gulpImageresize = require("gulp-image-resize");
-const webp = require('gulp-webp');
-
 
 gulp.task('default',['images']);
 
