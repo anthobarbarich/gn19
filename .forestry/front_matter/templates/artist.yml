@@ -95,6 +95,11 @@ fields:
       file: 
       path: ''
   label: category
+- name: day2
+  type: include
+  config: {}
+  template: categ
+  label: day
 pages:
 - content/lineup/shackelton-zimpel.md
 - content/lineup/louise-bourgeois.md
