@@ -95,6 +95,18 @@ fields:
       file: 
       path: ''
   label: category
+- name: blabla
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: pages
+      file: content/exhibition.md
+      path: day
+  label: blabla
 pages:
 - content/lineup/shackelton-zimpel.md
 - content/lineup/louise-bourgeois.md
