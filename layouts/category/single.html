@@ -42,13 +42,13 @@
       </a> {{end }}
       {{end}} 
 		
-		{{ if eq $title "GN Pro" }}
-      {{ range where .Site.Pages ".Params.category" "Gn Pro"}} <a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
+		{{ if eq $title "GN PRO" }}
+      {{ range where .Site.Pages ".Params.category" "GN Pro"}}<a href="{{ .Permalink }}" class="lineup w-inline-block show" data-ix="lineupartist">
       <h2 class="lineup-heading" style="text-transform: capitalize">{{ .Params.name }}</h2>
       <div class="arti-type lineup2">{{ .Params.perf }}</div>
       </a> {{end }}
       {{end}} 
-	  
+	 
 	</div>
     {{.Content}} <a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a> </div>
 </div>
