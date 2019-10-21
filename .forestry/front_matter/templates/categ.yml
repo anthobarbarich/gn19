@@ -9,8 +9,14 @@ fields:
     min: 
     max: 
     source:
-      type: documents
+      type: simple
       section: pages
       file: content/artscience.md
       path: day
+    options:
+    - Thursday 7
+    - Friday 8
+    - Saturday 9
+    - Sunday 10
+    - Monday 11
   label: day
