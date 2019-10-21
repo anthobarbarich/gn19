@@ -95,6 +95,14 @@ fields:
       file: 
       path: ''
   label: category
+- name: day2
+  type: blocks
+  label: day2
+  template_types:
+  - categ
+  config:
+    min: 
+    max: 
 pages:
 - content/lineup/shackelton-zimpel.md
 - content/lineup/louise-bourgeois.md
