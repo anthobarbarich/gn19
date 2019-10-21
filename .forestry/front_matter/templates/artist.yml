@@ -96,6 +96,7 @@ fields:
       path: ''
   label: category
 pages:
+- content/lineup/cleveland.md
 - content/lineup/plicploc.md
 - content/lineup/le-motel.md
 - content/lineup/vinciane.md
@@ -117,7 +118,6 @@ pages:
 - content/lineup/cabasa.md
 - content/lineup/miaux.md
 - content/lineup/shackelton-zimpel.md
-- content/lineup/cleveland.md
 - content/lineup/woody.md
 - content/lineup/transforma-shed.md
 - content/lineup/stijn.md
