@@ -1,0 +1,34 @@
+---
+label: artist multiple dates & categ
+hide_body: true
+fields:
+- type: text
+  name: day
+  label: day
+- type: text
+  name: perf
+  label: perf
+- type: text
+  name: category
+  label: category
+- type: text
+  name: name
+  label: name
+- type: file
+  name: picture
+  label: picture
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: time
+  label: time
+- type: image_gallery
+  name: media
+  label: media
+- type: text
+  name: room
+  label: room
+- type: text
+  name: website
+  label: website
