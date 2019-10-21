@@ -1155,6 +1155,10 @@ a {
     text-decoration: none;
     text-transform: capitalize;
 }
+
+.linkartist:hover {
+    color:red;
+}
 .backlink {
     display: inline-block;
     margin-top: 15px;
