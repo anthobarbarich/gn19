@@ -96,13 +96,10 @@ fields:
       path: ''
   label: category
 - name: day2
-  type: blocks
+  type: include
+  config: {}
+  template: categ
   label: day2
-  template_types:
-  - categ
-  config:
-    min: 
-    max: 
 pages:
 - content/lineup/shackelton-zimpel.md
 - content/lineup/louise-bourgeois.md
