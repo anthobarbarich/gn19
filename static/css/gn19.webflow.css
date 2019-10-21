@@ -909,6 +909,16 @@ a {
     font-size: 15px;
     margin: 17px 0px 0px 17px;
 }
+
+.room p.arti-type {
+	color:red;
+	font-weight: 400;
+	font-size: 1.5em;
+	margin: 0;
+margin-bottom: -20px;
+	padding: 0;
+	    display: initial;
+}
 .html-embed-2 {
     margin-top: -15px;
 }
@@ -1006,6 +1016,17 @@ a {
 }
 .lineup:hover {
     opacity: 1;
+}
+
+.lineup:hover:before {
+    content: '→';
+	position: absolute;
+	color: red;
+	font-size: 5em;
+	top: 50%;
+	transform: translateY(-50%) rotate(-45deg);
+	margin-left: -60px;
+	
 }
 .filterselect {
     background: none;
@@ -1569,6 +1590,8 @@ a {
     font-size: 30px;
     line-height: 37px;
     text-align: left;
+	    margin-top: 3px;
+	margin-bottom: 20px;
 }
 .room-heading.underline {
     text-align: left;
@@ -1703,7 +1726,7 @@ a {
     margin-right: 20px;
     margin-left: 20px;
 }
-
+	.block-artist {margin-bottom: -30px;}
 .block-50.img-blend {
     margin-bottom: 30px;
 	}
