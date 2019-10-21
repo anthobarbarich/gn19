@@ -42,8 +42,7 @@
             </div>
             <div class="room">
               <h2 class="room-heading">Opening Night : concerts & A/V live shows<br></h2>
-				{{range where .Site.Pages ".Params.day" "Thursday 7"}}
-				
+				{{ range (where (where .Site.Pages ".Params.category" "Nocturnes") ".Params.day" "Thursday 7") }}
 				
 				<div class="block-artist">
 <!--                <div class="hours">18:00-22:00</div>-->
