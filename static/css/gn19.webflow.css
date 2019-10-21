@@ -903,6 +903,7 @@ a {
     display: inline-block;
     color: #fff;
     font-size: 12px;
+	margin-left: 10px;
 }
 .arti-type.lineup2 {
     font-size: 15px;
