@@ -490,6 +490,8 @@ a {
     padding-bottom: 147px;
     background-color: rgba(10, 26, 192, 0.93);
 }
+
+.media-artist { margin-bottom: 40px;}
 .html-embed {
     position: fixed;
     left: auto;
@@ -1026,6 +1028,7 @@ a {
     transition-timing-function: ease-out;
     transition-duration: 1850ms;
 
+
 }
 .block-50.img-blend img {
     filter: saturate(0);
@@ -1033,17 +1036,16 @@ a {
     width: 100%;
     max-height: 100%;
 }
+.block-50.img-blend img:hover {
+    filter: saturate(1);
+}
 .img-blend img {
     background: rgb(105, 108, 232);
     filter: saturate(0);
     mix-blend-mode: overlay;
     background-blend-mode: multiply;
 }
-.img-blend-list img {
-    filter: saturate(0);
-    mix-blend-mode: overlay;
-    background-blend-mode: multiply;
-}
+
 .img-blend-list:after {
     content: "";
     display: block;
