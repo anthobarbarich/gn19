@@ -1,4 +1,16 @@
 ---
-label: categ
+label: day
 hide_body: false
-fields: []
+fields:
+- name: day
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: pages
+      file: content/artscience.md
+      path: day
+  label: day
