@@ -2,15 +2,39 @@
 label: artist multiple dates & categ
 hide_body: true
 fields:
-- type: text
-  name: day
+- name: day
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Thursday7
+    - Friday 8
+    - Saturday 9
+    - Sunday 10
+    - Monday 11
   label: day
+- name: category
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+      section: ''
+    options:
+    - GN Pro
+    - Exhibition
+    - Nocturnes
+    - ArtScience
+  label: category
 - type: text
   name: perf
   label: perf
-- type: text
-  name: category
-  label: category
 - type: text
   name: name
   label: name
