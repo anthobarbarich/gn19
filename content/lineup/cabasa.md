@@ -7,7 +7,7 @@ media = []
 name = "Cabasa"
 perf = "Live"
 picture = "/uploads/cabasasite.jpg"
-room = "Ambient Room"
+room = "3D Sound Room"
 time = ""
 website = ""
 
