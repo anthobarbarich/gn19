@@ -63,21 +63,23 @@
         <div class="block-50 img-blend"><img src="/thumbs/images{{ .Params.picture }}" width="480" alt="" class="imgartist-page"></div>
         <div class="block-50">
           <p class="white">{{.Params.description }}</p>
-          <a href="{{.Params.website}}" class="linkartist">More info<br>
-          </a> </div>
+          {{ with .Params.website}}
+          <a href="{{.}}" class="linkartist">More info<br>
+          </a> 
+          {{ end }}
+        </div>
       </div>
     </div>
-    <div>{{ if isset .Params "media" }}
-      <h2 class="room-heading">Media<br>
-      </h2><br>
-		{{.Content | markdownify}}
-		     
-		{{range .Params.media }}
-        <div class="media-artist"><img src="{{.}}" alt=""></div>
-{{ end}}
-		
-    </div>{{ end }}
-    <br>
-    <a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a></div>
-</div>
-{{ partial "site-footer.html" . }} 
+    <div>
+        {{ with or .Params.media .Content}}
+          <h2 class="room-heading">Media<br></h2><br>
+          {{ end }}
+        {{.Content | markdownify}}
+        {{ range .Params.media }}
+          <div class="media-artist"><img src="{{.}}" alt=""></div>
+        {{ end }}
+        </div>
+        <br>
+        <a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a></div>
+    </div>
+    {{ partial "site-footer.html" . }} 
