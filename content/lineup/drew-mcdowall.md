@@ -9,6 +9,7 @@ perf = "A/V"
 picture = "/uploads/artistes 9.jpg"
 room = "Main Room"
 time = ""
-website = "https://www.youtube.com/watch?v=CYApap08Rcc"
+website = ""
 
 +++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYApap08Rcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
