@@ -9,6 +9,7 @@ perf = "Live"
 picture = "/uploads/artistes 17.jpg"
 room = "Main Room"
 time = ""
-website = "https://www.youtube.com/watch?v=gmj3YouZvNU"
+website = ""
 
 +++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gmj3YouZvNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
