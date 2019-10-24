@@ -47,4 +47,8 @@ introtext: |-
   Bourse de Bruxelles
   Place de la Bourse, 1000 Bruxelles
 
+  Where to sleep:
+  Qbic Hotel
+  Rue Paul Spaak 15
+
 ---
