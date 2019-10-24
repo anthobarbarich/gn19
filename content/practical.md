@@ -5,13 +5,13 @@ introtext: |-
   How much
 
   Full pass
-  opening night (jeudi 7 novembre)
-  nocturne #1 (vendredi 8 novembre)
-  nocturne #2 (dimanche 10 novembre)
+  opening night (November 7)
+  night #1 (November 8)
+  night #2 (November 10)
   35€
 
-  Exposition
-  Du jeudi 7 novembre au lundi 11 novembre
+  Exhibition
+  November 7 - November 11
   12:00-20:00
   5€ pour les étudiants et moins de 18 ans
   8€ plein tarif
