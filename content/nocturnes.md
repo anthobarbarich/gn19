@@ -11,7 +11,7 @@ text = "Held on Friday 8 and Sunday 10, the Nights represent a moment of efferve
 picture = "/uploads/artistes 5.jpg"
 text = "The music programming will be divided into two different rooms. The first one, the Main Room, is the great hall of the Bourse with a capacity of about 1.200 people, where all the headliners will be playing. The second one, a smaller room with a capacity of a 100 people, will be dedicated to ambient music («3D Sound Room»). A total of 24 artists will be performing during the two Nights on Friday and Sunday."
 [[blockcontent]]
-picture = "/uploads/artistes 6.jpg"
+picture = "/uploads/LC2A5498.jpg"
 text = "During the Opening Night on Thursday 7, one of the highlights of the festival, an artistic project - a live audiovisual performance - by two prominent figures representing the aesthetic of Les Garages Numériques will be presented in an ideal setting: the great hall of the Bourse of Brussels."
 
 +++
