@@ -2,9 +2,9 @@
 type: static
 title: Practical / Info
 introtext: |-
-  Tarifs
+  How much
 
-  Pass complet
+  Full pass
   opening night (jeudi 7 novembre)
   nocturne #1 (vendredi 8 novembre)
   nocturne #2 (dimanche 10 novembre)
@@ -43,5 +43,9 @@ introtext: |-
   21:00-06:00
   15€ en prévente
   20€ à la porte
+
+  Lieu
+  Bourse de Bruxelles
+  Place de la Bourse, 1000 Bruxelles
 
 ---
