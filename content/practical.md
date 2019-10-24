@@ -13,8 +13,8 @@ introtext: |-
   Exhibition
   November 7 - November 11
   12:00-20:00
-  5€ pour les étudiants et moins de 18 ans
-  8€ plein tarif
+  5€: for students & - 18
+  8€: full price ticket
 
   Les Garages Numériques Pro
   jeudi 7 novembre
