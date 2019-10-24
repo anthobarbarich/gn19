@@ -1,8 +1,7 @@
 ---
 type: static
 title: Practical / Info
-introtext: |-
-  How much
+introtext: |2-
 
   Full pass
   opening night (November 7)
@@ -13,7 +12,7 @@ introtext: |-
   Exhibition
   November 7 - November 11
   12:00-20:00
-  5€: for students & - 18
+  5€: students & children under 18
   8€: full price ticket
 
   Les Garages Numériques Pro
