@@ -1,8 +1,8 @@
 ---
 type: static
 title: Practical / Info
-introtext: |2-
-
+introtext: |-
+  Prices & hours:
   Full pass
   opening night (November 7)
   night #1 (November 8)
