@@ -43,7 +43,7 @@ introtext: |2-
   15€ en prévente
   20€ à la porte
 
-  Lieu
+  How to get there:
   Bourse de Bruxelles
   Place de la Bourse, 1000 Bruxelles
 
