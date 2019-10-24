@@ -44,11 +44,11 @@ introtext: |-
   20€ à la porte
 
   How to get there:
-  Bourse de Bruxelles
-  Place de la Bourse, 1000 Bruxelles
+  Bourse / Beurs
+  Place de la Bourse, 1000 Brussels
 
   Where to sleep:
   Qbic Hotel
-  Rue Paul Spaak 15
+  Rue Paul Spaak 15, 1000 Brussels
 
 ---
