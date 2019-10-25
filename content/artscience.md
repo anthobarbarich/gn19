@@ -5,7 +5,7 @@ layout = "category"
 title = "ArtScience"
 type = "category"
 [[blockcontent]]
-picture = ""
+picture = "/uploads/ff0.jpg"
 text = "On November 9, artists and scientists come together for a series of talks, conversations and performances around artistic practice and scientific knowledge."
 [[blockcontent]]
 picture = ""
