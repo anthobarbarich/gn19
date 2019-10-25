@@ -11,9 +11,6 @@ text = "The exhibition represents the central axis of the festival. Made up of t
 picture = "/uploads/artistes 3.jpg"
 text = "The art pieces on display represent and encompass the philosophy of the project as they explore the correlation between sound and image. Several spaces are available to artists, enabling them to create immersive, interactive and monumental installations that coexist side by side and play with the codes and characteristics of the Bourse."
 [[blockcontent]]
-picture = "/uploads/frenquencies.jpg"
-text = "Frequencies - Nicolas Bernier"
-[[blockcontent]]
 picture = "/uploads/exhib1.jpg"
 text = "Les Garages Numériques 2017"
 [[blockcontent]]

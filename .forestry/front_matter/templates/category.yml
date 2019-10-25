@@ -61,6 +61,6 @@ fields:
   label: day
 pages:
 - content/nocturnes.md
-- content/exhibition.md
 - content/gn-pro.md
+- content/exhibition.md
 - content/artscience.md
