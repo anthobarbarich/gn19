@@ -1,11 +1,11 @@
 +++
 day = ["Saturday 9"]
-introtext = "The popularization of science trough art"
+introtext = "]unframed[ a close up on ArtScience"
 layout = "category"
 title = "ArtScience"
 type = "category"
 [[blockcontent]]
-picture = "/uploads/artistes 14.png"
+picture = ""
 text = "texte"
 [[blockcontent]]
 picture = "/uploads/artistes 3.png"
