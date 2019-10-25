@@ -6,7 +6,7 @@ title = "ArtScience"
 type = "category"
 [[blockcontent]]
 picture = ""
-text = "Artists and scientists together for a series of talks, conversations and performances around artistic\npractice and scientific knowledge."
+text = "On November 9, artists and scientists come together for a series of talks, conversations and performances around artistic practice and scientific knowledge."
 [[blockcontent]]
 picture = ""
 text = "The day will start with talks on art, science and technology. The list of guests includes: Mathieu Zurstrassen, Romain Maggiolo, Felix Luque, Evelina Domnitch and Dmitry Gelfand. "
