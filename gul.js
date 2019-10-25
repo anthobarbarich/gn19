@@ -1,11 +1,4 @@
-// function defaultTask(cb) {
-//     // place code for your default task here
-//     cb();
-//   }
-  
-//   exports.default = defaultTask
-
-  var gulp = require('gulp');
+var gulp = require('gulp');
 var newer = require('gulp-newer');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
@@ -49,3 +42,5 @@ gulp.task('images', () =>
         .pipe(gulp.dest('static/thumbs/images/uploads')) 
 	
 );
+
+
