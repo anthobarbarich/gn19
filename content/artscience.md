@@ -9,6 +9,6 @@ picture = ""
 text = "Artists and scientists together for a series of talks, conversations and performances around artistic\npractice and scientific knowledge."
 [[blockcontent]]
 picture = ""
-text = "]unframed[ Talks:\nTalks on art, science and technology"
+text = "The day will start with talks on art, science and technology, followed by «]unframed[ close up»: "
 
 +++
