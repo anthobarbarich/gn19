@@ -8,7 +8,7 @@ type = "category"
 picture = "/uploads/ff0.jpg"
 text = "On November 9, artists and scientists come together for a series of talks, conversations and performances around artistic practice and scientific knowledge."
 [[blockcontent]]
-picture = ""
+picture = "/uploads/frenquencies.jpg"
 text = "The day will start with talks on art, science and technology. The list of guests includes: Mathieu Zurstrassen, Romain Maggiolo, Felix Luque, Evelina Domnitch and Dmitry Gelfand. "
 [[blockcontent]]
 picture = ""
