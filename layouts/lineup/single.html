@@ -9,9 +9,9 @@
 <meta name="description" content=' {{ .Site.Params.Description }}' />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:title" content='{{ if isset .Params "name" }}{{ .Params.Name }}{{ else }}{{ .Site.Title }}{{ end }}' />
-<meta property="og:description" content='{{ if isset .Params "description" }}{{ .Params.Description | truncate 110}}{{ else }}{{ .Site.Description | truncate 110}}{{ end }}' />
-<meta property="og:image" content=' {{ if isset .Params "picture" }} https://www.lesgaragesnumeriques.com/thumbs/images{{ .Params.picture }}{{ else }} https://www.lesgaragesnumeriques.com/images/garages-numeriques-opengraph.jpg {{ end }}' />
+<meta property="og:title" content='{{ .Params.Name }}' />
+<meta property="og:description" content="{{ .Params.Description | truncate 110}}" />
+<meta property="og:image" content='{{ if eq .Params.Picture "" }}https://www.lesgaragesnumeriques.com/images/garages-numeriques-opengraph.jpg{{ else }}https://www.lesgaragesnumeriques.com/thumbs/images{{ .Params.picture }}{{ end }}' />
 <meta property="og:image:width" content="1200" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <link href="/css/normalize.css" rel="stylesheet" type="text/css">
