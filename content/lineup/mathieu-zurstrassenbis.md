@@ -7,8 +7,8 @@ media = ["/uploads/_ʁi.zom__2019.jpg", "/uploads/Elsa On the Moon_2019.jpg"]
 name = "Mathieu Zurstrassen"
 perf = ""
 picture = "/uploads/artistes 20.jpg"
-room = ""
+room = "Exhibition room"
 time = ""
-website = ""
+website = "http://mathieuzurstrassen.com/"
 
 +++
