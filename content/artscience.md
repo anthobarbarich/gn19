@@ -11,7 +11,7 @@ text = "On November 9, artists and scientists come together for a series of talk
 picture = "/uploads/frenquencies.jpg"
 text = "The day will start with talks on art, science and technology. The list of guests includes: Mathieu Zurstrassen, Romain Maggiolo, Felix Luque, Evelina Domnitch and Dmitry Gelfand. "
 [[blockcontent]]
-picture = ""
+picture = "/uploads/64713131_1447006888811720_116334978828075008_n.jpg"
 text = "Then, the day will continue with «]unframed[ close up»: a group of scientists unveil the sciences behind a selection of breathtaking artworks selected from the Garages Numériques exhibition. Starting from the artists’ works, we’ll be talking about neurosciences, quantum physics, holograms, generative coding and northern lights – a programme à la carte designed to bring closer scientific knowledge."
 [[blockcontent]]
 picture = ""
