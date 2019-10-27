@@ -49,10 +49,10 @@
   <div class="container-5 w-container"><a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a>
     <h1 class="headingartist glitch" data-text="{{.Params.name}}">{{.Params.name}}<br>
     </h1>
-    <div class="artist-type"> {{.Params.day}}</div>
-    <div class="date-artist"> {{ if eq .Params.perf "Exhibition"}}
-      THURSDAY 7 -> MONDAY 11
-      {{ else if eq .Params.perf "A/V"}}
+    <div class="artist-type"> {{ if eq .Params.day "Exhibition"}}
+      ONGOING EXHIBITION {{else}} {{.Params.day}} {{end}}{{ with .Params.blabla}}+ {{ delimit . ", "}} {{end}}</div>
+    <div class="date-artist"> 
+      {{ if eq .Params.perf "A/V"}}
       A/V SHOW
       {{ else }}
       {{ .Params.perf }}
