@@ -6,12 +6,13 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <title>{{ .Params.title }}{{ .Params.name }} - {{ .Site.Title }}</title>
 <meta name="author" content='{{ .Site.Params.Author }}' />
-<meta name="description" content='{{ .Site.Params.Description }}' />
+<meta name="description" content=' {{ .Site.Params.Description }}' />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:title" content="{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}" />
-<meta property="og:description" content='{{ .Site.Params.Description }}' />
-<meta property="og:image" content="https://www.lesgaragesnumeriques.com/images/garages-numeriques-opengraph.jpg" />
+<meta property="og:title" content='{{ .Params.Name }}' />
+<meta property="og:description" content="{{ .Params.Description | truncate 110}}" />
+<meta property="og:image" content='{{ if eq .Params.Picture "" }}https://www.lesgaragesnumeriques.com/images/garages-numeriques-opengraph.jpg{{ else }}https://www.lesgaragesnumeriques.com/thumbs/images{{ .Params.picture }}{{ end }}' />
+<meta property="og:image:width" content="1200" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <link href="/css/normalize.css" rel="stylesheet" type="text/css">
 <link href="/css/webflow.css" rel="stylesheet" type="text/css">
@@ -83,3 +84,4 @@
         <a href="javascript: history.go(-1)" class="backlink"><span class="red">←</span> Go Back</a></div>
     </div>
     {{ partial "site-footer.html" . }} 
+    
