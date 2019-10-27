@@ -1,16 +1,9 @@
-// function defaultTask(cb) {
-//     // place code for your default task here
-//     cb();
-//   }
-  
-//   exports.default = defaultTask
-
-  var gulp = require('gulp');
-var newer = require('gulp-newer');
-var htmlmin = require('gulp-htmlmin');
-var imagemin = require('gulp-imagemin');
-var imageminMozjpeg = require('imagemin-mozjpeg');
-var gulpImageresize = require("gulp-image-resize");
+var gulp = require('gulp');
+const htmlmin = require('gulp-htmlmin');
+const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+const gulpImageresize = require("gulp-image-resize");
+const gulpNewer = require("gulp-newer");
 
 gulp.task('default',['images']);
 
@@ -22,7 +15,7 @@ gulp.task('minify', () => {
 
 gulp.task('images', () =>
     gulp.src(['static/uploads/*', '!static/uploads/*.svg'])
-        .pipe(newer('public/uploads'))
+        .pipe(gulpNewer('public/uploads'))
         .pipe(imagemin([    
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
