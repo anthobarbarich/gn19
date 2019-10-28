@@ -8,7 +8,7 @@
       {{ range $day }}
       {{.}}
       {{end}} </div>
-	        <h2 class="intro-pages venue">{{ .Params.introtext }}</h2>
+	        <h2 class="intro-pages venue">{{ .Params.introtext | markdownify }}</h2>
     <div class="block-editions"> {{range .Params.blockcontent}}
       <div class="flex gnpro">
         <div class="block-50 img-blend"><img src="/thumbs/images{{.picture}}" alt="" class="imgvenue"></div>
