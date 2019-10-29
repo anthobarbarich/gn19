@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Visit Brussels
+  logo: "/uploads/logo-16.png"
+  url: https://visit.brussels/fr
 - name: Qbic
   logo: "/uploads/logo-15.png"
   url: https://qbichotels.com/brussels/
