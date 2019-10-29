@@ -36,9 +36,6 @@ partners:
 - name: Digizik
   logo: "/uploads/logo-01.png"
   url: http://digizik.com
-- name: Visit Brussels
-  logo: "/uploads/logo-16.png"
-  url: https://visit.brussels/fr
 - name: Innoviris Brussels
   logo: "/uploads/logo-14.png"
   url: https://innoviris.brussels/fr
@@ -51,5 +48,8 @@ partners:
 - name: Screen Brussels
   logo: "/uploads/logo-02.png"
   url: https://screen.brussels/fr
+- name: Visit Brussels
+  logo: "/uploads/logo-16.png"
+  url: https://visit.brussels/fr
 
 ---
