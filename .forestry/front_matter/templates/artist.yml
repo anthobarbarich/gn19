@@ -108,7 +108,6 @@ fields:
       path: day
   label: blabla
 pages:
-- content/lineup/shackelton-zimpel.md
 - content/lineup/louise-bourgeois.md
 - content/lineup/martin-messier.md
 - content/lineup/refik-anadol.md
@@ -144,6 +143,7 @@ pages:
 - content/lineup/herman-kolgen.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/batu.md
+- content/lineup/shackelton-zimpel.md
 - content/lineup/frederik-vanhoutte.md
 - content/lineup/jm-sparenberg.md
 - content/lineup/anna-peiffer.md
