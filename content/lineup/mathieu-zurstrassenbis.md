@@ -1,5 +1,5 @@
 +++
-blabla = ["Friday 8"]
+blabla = ["Saturday 9"]
 category = "Exhibition"
 categoryB = ["ArtScience"]
 day = "Exhibition"
