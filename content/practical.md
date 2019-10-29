@@ -12,8 +12,8 @@ introtext: |-
   Exhibition
   November 7 - November 11
   12:00-20:00
-  5€: students & children under 18
-  8€: full price ticket
+  5€ : students & children under 18
+  8€ : full price ticket
 
   Les Garages Numériques Pro
   November 7
@@ -23,14 +23,14 @@ introtext: |-
   Opening Night
   November 7
   18:00-23:00
-  10€: presale
-  15€: on the door
+  10€ : presale
+  15€ : on the door
 
   Night #1
   November 8
   21:00-06:00
-  15€: presale
-  20€: on the door
+  15€ : presale
+  20€ : on the door
 
   ]unframed[
   November 9
@@ -40,8 +40,8 @@ introtext: |-
   Night #2
   November 10
   21:00-06:00
-  15€: presale
-  20€: on the door
+  15€ : presale
+  20€ : on the door
 
   How to get there:
   Bourse / Beurs
