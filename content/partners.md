@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Ville de Bruxelles
+  logo: "/uploads/logo-03.png"
+  url: https://www.bruxelles.be/
 - name: Screen Brussels
   logo: "/uploads/logo-02.png"
   url: https://screen.brussels/fr
