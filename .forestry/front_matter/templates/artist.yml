@@ -13,6 +13,11 @@ fields:
   config:
     maxSize: '1'
   label: picture
+- name: perf
+  type: text
+  config:
+    required: false
+  label: Type of performance
 - name: description
   type: textarea
   default: ''
@@ -54,26 +59,6 @@ fields:
   config:
     required: false
   label: Room
-- name: perf
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - A/V
-    - DJ Set
-    - Live
-    - Exhibition
-    - Talk
-    - VJ
-    - Installation
-    - Performance
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Type of performance
 - name: website
   type: text
   config:
