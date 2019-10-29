@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Once Lighting Solutions
+  logo: "/uploads/logo-09.png"
+  url: http://www.oncelightingsolutions.com/
 - name: Volvo Cars ACB
   logo: "/uploads/logo-08.png"
   url: https://partner.volvocars.be/fr/acb
