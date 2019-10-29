@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Desperados
+  logo: "/uploads/logo-13.png"
+  url: https://www.desperados.com/
 - name: Redbull
   logo: "/uploads/logo-12.png"
   url: https://www.redbull.com/be-fr/
