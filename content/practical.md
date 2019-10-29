@@ -32,9 +32,9 @@ introtext: |-
   15€: presale
   20€: on the door
 
-  ArtScience Night
-  samedi 9 novembre
-  17:00-00:00
+  ]unframed[
+  November 9
+  21:00-00:00
   8€
 
   Nocturne #2
