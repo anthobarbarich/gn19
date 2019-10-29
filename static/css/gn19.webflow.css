@@ -1853,16 +1853,21 @@ retransform {
     src: url('../fonts/NeueMachina-Ultrabold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
+	font-display: swap;
 }
 @font-face {
     font-family: 'Neuemachina';
     src: url('../fonts/NeueMachina-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
+	font-display: swap;
+
 }
 @font-face {
     font-family: 'Neuemachina';
     src: url('../fonts/NeueMachina-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+	font-display: swap;
+
 }

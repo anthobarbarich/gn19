@@ -32,9 +32,9 @@
       </div>
     </div>
 		
-      {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{ .Params.category }}" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images{{ .Params.picture }}" src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" width="600" height="600"></div>
+      {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{with .Params.blabla }} {{delimit . ' '}} {{end}} {{ .Params.category }}" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images{{ .Params.picture }}" src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" width="600" height="600"></div>
       <div class="testBlock">
-        <h2 class="lineup-heading">{{ .Params.name }}
+        <h2 class="lineup-heading">{{ .Params.name }} 
         <span class="arti-type lineup2"><sup >{{ if eq .Params.perf "A/V"}}
           A/V SHOW
           {{ else }}

@@ -1,9 +1,9 @@
 var gulp = require('gulp');
-var newer = require('gulp-newer');
-var htmlmin = require('gulp-htmlmin');
-var imagemin = require('gulp-imagemin');
-var imageminMozjpeg = require('imagemin-mozjpeg');
-var gulpImageresize = require("gulp-image-resize");
+const htmlmin = require('gulp-htmlmin');
+const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+const gulpImageresize = require("gulp-image-resize");
+const gulpNewer = require("gulp-newer");
 
 gulp.task('default',['images']);
 
@@ -15,7 +15,7 @@ gulp.task('minify', () => {
 
 gulp.task('images', () =>
     gulp.src(['static/uploads/*', '!static/uploads/*.svg'])
-        .pipe(newer('public/uploads'))
+        .pipe(gulpNewer('public/uploads'))
         .pipe(imagemin([    
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
@@ -42,5 +42,3 @@ gulp.task('images', () =>
         .pipe(gulp.dest('static/thumbs/images/uploads')) 
 	
 );
-
-

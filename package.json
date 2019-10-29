@@ -30,6 +30,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "lodash": "^4.17.15",
     "minimatch": "^3.0.4",
+    "node": "^8.10.0",
     "postcss-cli": "^6.1.3"
   }
 }

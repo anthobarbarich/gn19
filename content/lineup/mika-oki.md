@@ -1,4 +1,5 @@
 +++
+blabla = ["Sunday 10"]
 category = "Exhibition"
 day = "Exhibition"
 description = "Mika Oki is a visual and sound artist, living and working in Brussels. With a background in sculpture and electro-acoustic music, she explores the notion\nof intangible spaces and emotional landscapes\nthrough video, sculpture and sound installations.\nUsing abstract sound textures and kinetic mental\nimages, she recreates imageries playing with the\nborders of the unconscious. Her previous works has\nbeen shown at Berlin Atonal and SONICA."
@@ -8,6 +9,7 @@ perf = "Exhibition"
 picture = "/uploads/artistes 28.jpg"
 room = "Exhibition room"
 time = ""
-website = ""
+website = "http://shapeplatform.eu/artist/mika-oki/"
 
 +++
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/669457133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

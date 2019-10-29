@@ -490,6 +490,8 @@ a {
     padding-bottom: 147px;
     background-color: rgba(10, 26, 192, 0.93);
 }
+
+.media-artist { margin-bottom: 40px;}
 .html-embed {
     position: fixed;
     left: auto;
@@ -901,10 +903,21 @@ a {
     display: inline-block;
     color: #fff;
     font-size: 12px;
+	margin-left: 10px;
 }
 .arti-type.lineup2 {
     font-size: 15px;
     margin: 17px 0px 0px 17px;
+}
+
+.room p.arti-type {
+	color:red;
+	font-weight: 400;
+	font-size: 1.5em;
+	margin: 0;
+margin-bottom: -20px;
+	padding: 0;
+	    display: initial;
 }
 .html-embed-2 {
     margin-top: -15px;
@@ -1004,6 +1017,17 @@ a {
 .lineup:hover {
     opacity: 1;
 }
+
+.lineup:hover:before {
+    content: '→';
+	position: absolute;
+	color: red;
+	font-size: 5em;
+	top: 50%;
+	transform: translateY(-50%) rotate(-45deg);
+	margin-left: -60px;
+	
+}
 .filterselect {
     background: none;
     border-radius: 0;
@@ -1026,6 +1050,7 @@ a {
     transition-timing-function: ease-out;
     transition-duration: 1850ms;
 
+
 }
 .block-50.img-blend img {
     filter: saturate(0);
@@ -1033,17 +1058,16 @@ a {
     width: 100%;
     max-height: 100%;
 }
+.block-50.img-blend img:hover {
+    filter: saturate(1);
+}
 .img-blend img {
     background: rgb(105, 108, 232);
     filter: saturate(0);
     mix-blend-mode: overlay;
     background-blend-mode: multiply;
 }
-.img-blend-list img {
-    filter: saturate(0);
-    mix-blend-mode: overlay;
-    background-blend-mode: multiply;
-}
+
 .img-blend-list:after {
     content: "";
     display: block;
@@ -1152,6 +1176,10 @@ a {
     font-size: 16px;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.linkartist:hover {
+    color:red;
 }
 .backlink {
     display: inline-block;
@@ -1562,6 +1590,8 @@ a {
     font-size: 30px;
     line-height: 37px;
     text-align: left;
+	    margin-top: 3px;
+	margin-bottom: 20px;
 }
 .room-heading.underline {
     text-align: left;
@@ -1696,7 +1726,7 @@ a {
     margin-right: 20px;
     margin-left: 20px;
 }
-
+	.block-artist {margin-bottom: -30px;}
 .block-50.img-blend {
     margin-bottom: 30px;
 	}
