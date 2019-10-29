@@ -23,14 +23,14 @@ introtext: |-
   Opening Night
   November 7
   18:00-23:00
-  10€ en prévente
-  15€ à la porte
+  10€: presale
+  15€: on the door
 
   Nocturne #1
-  vendredi 8 novembre
+  November 8
   21:00-06:00
-  15€ en prévente
-  20€ à la porte
+  15€: presale
+  20€: on the door
 
   ArtScience Night
   samedi 9 novembre
