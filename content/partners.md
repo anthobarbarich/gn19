@@ -30,6 +30,9 @@ partners:
 - name: Inkut Lab
   logo: "/uploads/logo-05.png"
   url: https://www.inkutlab.com/
+- name: Innoviris Brussels
+  logo: "/uploads/logo-14.png"
+  url: https://innoviris.brussels/fr
 - name: Hub Brussels
   logo: "/uploads/logo-04.png"
   url: https://hub.brussels/fr/
