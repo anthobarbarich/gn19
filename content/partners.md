@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Lojiq
+  logo: "/uploads/logo-10.png"
+  url: https://www.lojiq.org/
 - name: Once Lighting Solutions
   logo: "/uploads/logo-09.png"
   url: http://www.oncelightingsolutions.com/
