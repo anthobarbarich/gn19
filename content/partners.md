@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: BIJ
+  logo: "/uploads/logo-07.png"
+  url: https://www.lebij.be/
 - name: Ohme
   logo: "/uploads/logo-06.png"
   url: https://ohme.be/
