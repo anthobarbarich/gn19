@@ -3,9 +3,6 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
-- name: Visit Brussels
-  logo: "/uploads/logo-16.png"
-  url: https://visit.brussels/fr
 - name: Qbic
   logo: "/uploads/logo-15.png"
   url: https://qbichotels.com/brussels/
@@ -36,6 +33,12 @@ partners:
 - name: Inkut Lab
   logo: "/uploads/logo-05.png"
   url: https://www.inkutlab.com/
+- name: Digizik
+  logo: "/uploads/logo-01.png"
+  url: http://digizik.com
+- name: Visit Brussels
+  logo: "/uploads/logo-16.png"
+  url: https://visit.brussels/fr
 - name: Innoviris Brussels
   logo: "/uploads/logo-14.png"
   url: https://innoviris.brussels/fr
@@ -48,9 +51,5 @@ partners:
 - name: Screen Brussels
   logo: "/uploads/logo-02.png"
   url: https://screen.brussels/fr
-- name: Digizik
-  logo: "/uploads/logo-01.png"
-  url: http://digizik.com
 
 ---
-![](/uploads/ALL_SPONSORS-1.jpg)
