@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Ohme
+  logo: "/uploads/logo-06.png"
+  url: https://ohme.be/
 - name: Inkut Lab
   logo: "/uploads/logo-05.png"
   url: https://www.inkutlab.com/
