@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Heineken
+  logo: "/uploads/logo-11.png"
+  url: https://www.heineken.com
 - name: Lojiq
   logo: "/uploads/logo-10.png"
   url: https://www.lojiq.org/
