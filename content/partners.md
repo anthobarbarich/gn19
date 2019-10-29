@@ -15,9 +15,9 @@ partners:
 - name: Heineken
   logo: "/uploads/logo-11.png"
   url: https://www.heineken.com
-- name: Lojiq
-  logo: "/uploads/logo-10.png"
-  url: https://www.lojiq.org/
+- name: Ohme
+  logo: "/uploads/logo-06.png"
+  url: https://ohme.be/
 - name: Once Lighting Solutions
   logo: "/uploads/logo-09.png"
   url: http://www.oncelightingsolutions.com/
@@ -27,9 +27,9 @@ partners:
 - name: BIJ
   logo: "/uploads/logo-07.png"
   url: https://www.lebij.be/
-- name: Ohme
-  logo: "/uploads/logo-06.png"
-  url: https://ohme.be/
+- name: Lojiq
+  logo: "/uploads/logo-10.png"
+  url: https://www.lojiq.org/
 - name: Inkut Lab
   logo: "/uploads/logo-05.png"
   url: https://www.inkutlab.com/
