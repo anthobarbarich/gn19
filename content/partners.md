@@ -5,4 +5,4 @@ introtext: ''
 partners: []
 
 ---
-![](/uploads/ALL_SPONSORS-1.jpg)![](/uploads/Qbic_Pink_RGB (1) copy.jpg)
+![](/uploads/ALL_SPONSORS-1.jpg)
