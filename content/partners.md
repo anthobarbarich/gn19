@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Volvo Cars ACB
+  logo: "/uploads/logo-08.png"
+  url: https://partner.volvocars.be/fr/acb
 - name: BIJ
   logo: "/uploads/logo-07.png"
   url: https://www.lebij.be/
