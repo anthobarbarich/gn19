@@ -16,13 +16,13 @@ introtext: |-
   8€: full price ticket
 
   Les Garages Numériques Pro
-  jeudi 7 novembre
+  November 7
   10:00-18:00
-  gratuit
+  free entrance
 
   Opening Night
-  jeudi 7 novembre
-  18:00-00:00
+  November 7
+  18:00-23:00
   10€ en prévente
   15€ à la porte
 
