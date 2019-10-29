@@ -37,11 +37,11 @@ introtext: |-
   21:00-00:00
   8€
 
-  Nocturne #2
-  dimanche 10 novembre
+  Night #2
+  November 10
   21:00-06:00
-  15€ en prévente
-  20€ à la porte
+  15€: presale
+  20€: on the door
 
   How to get there:
   Bourse / Beurs
