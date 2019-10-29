@@ -26,7 +26,7 @@ introtext: |-
   10€: presale
   15€: on the door
 
-  Nocturne #1
+  Night #1
   November 8
   21:00-06:00
   15€: presale
