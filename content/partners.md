@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Qbic
+  logo: "/uploads/logo-15.png"
+  url: https://qbichotels.com/brussels/
 - name: Desperados
   logo: "/uploads/logo-13.png"
   url: https://www.desperados.com/
