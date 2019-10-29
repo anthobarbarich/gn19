@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Redbull
+  logo: "/uploads/logo-12.png"
+  url: https://www.redbull.com/be-fr/
 - name: Heineken
   logo: "/uploads/logo-11.png"
   url: https://www.heineken.com
