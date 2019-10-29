@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: ''
+  logo: ''
+  url: ''
 - name: Ville de Bruxelles
   logo: "/uploads/logo-03.png"
   url: https://www.bruxelles.be/
