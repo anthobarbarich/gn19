@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: Inkut Lab
+  logo: "/uploads/logo-05.png"
+  url: https://www.inkutlab.com/
 - name: Hub Brussels
   logo: "/uploads/logo-04.png"
   url: https://hub.brussels/fr/
