@@ -107,6 +107,22 @@ fields:
       file: content/exhibition.md
       path: day
   label: blabla
+- name: categoryB
+  type: list
+  default: []
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+      section: ''
+    options:
+    - GN Pro
+    - Exhibition
+    - Nocturnes
+    - ArtScience
+  label: categoryB
 pages:
 - content/lineup/louise-bourgeois.md
 - content/lineup/martin-messier.md

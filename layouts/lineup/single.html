@@ -50,12 +50,12 @@
     <h1 class="headingartist glitch" data-text="{{.Params.name}}">{{.Params.name}}<br>
     </h1>
     <div class="artist-type"> {{ if eq .Params.day "Exhibition"}}
-      ONGOING EXHIBITION {{else}} {{.Params.day}} {{end}}{{ with .Params.blabla}}+ {{ delimit . ", "}} {{end}}</div>
+      ONGOING EXHIBITION {{else}}{{.Params.day}}{{ with .Params.blabla}}/ {{ delimit . ", "}} {{end}}{{end}}</div>
     <div class="date-artist"> 
       {{ if eq .Params.perf "A/V"}}
-      A/V SHOW
+      A/V SHOW{{with .Params.categoryB}}, {{ delimit . " "}} {{end}}
       {{ else }}
-      {{ .Params.perf }}
+      {{ .Params.perf }}{{with .Params.categoryB}}, {{ delimit . ", "}} {{end}}
       
       
       {{end}} </div>
