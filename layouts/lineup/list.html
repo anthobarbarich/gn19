@@ -32,7 +32,7 @@
       </div>
     </div>
 		
-      {{ range .Pages  }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{with .Params.blabla }} {{delimit . ' '}} {{end}} {{ .Params.category }} {{with .Params.categoryB}}+ {{ delimit . ','}} {{end}}" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images{{ .Params.picture }}" src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" width="600" height="600"></div>
+      {{ range sort .Pages ".Params.name" "asc" }} <a style="display: block;" href="{{ .Permalink }}" class="filterDiv lineup w-inline-block {{ .Params.day }} {{with .Params.blabla }} {{delimit . ' '}} {{end}} {{ .Params.category }} {{with .Params.categoryB}}+ {{ delimit . ','}} {{end}}" data-ix="lineupartist"><div class="imgartist"><img class="lozad" data-src="/compressed/images{{ .Params.picture }}" src="/compressed/images{{ .Params.picture }}"  alt="{{ .Params.name }}" width="600" height="600"></div>
       <div class="testBlock">
         <h2 class="lineup-heading">{{ .Params.name }} 
         <span class="arti-type lineup2"><sup >{{ if eq .Params.perf "A/V"}}
@@ -48,7 +48,7 @@
     </div>
       </a> {{end}}
 	    <h2 class="room-heading" style="margin-top:50px;">Ongoing Exhibition<br></h2>
-				{{range where .Site.Pages ".Params.day" "Exhibition"}}
+				{{range sort (where .Site.Pages ".Params.day" "Exhibition") ".Params.name" "asc" }}
 		  	
 				<div class="block-artist">
 <!--                <div class="hours">18:00-22:00</div>-->
