@@ -3,6 +3,9 @@ type: partners
 title: Our Partners
 introtext: ''
 partners:
+- name: BCOH
+  logo: "/uploads/BOCH_logoNew01092019.eps"
+  url: http://www.bcoh.be/
 - name: Qbic
   logo: "/uploads/logo-15.png"
   url: https://qbichotels.com/brussels/
