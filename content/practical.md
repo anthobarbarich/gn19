@@ -53,7 +53,7 @@ introtext: ''
 * 15€ : presale
 * 20€ : on the door
 
-## How to get there:
+## Location
 
 * Bourse / Beurs
 * Place de la Bourse, 1000 Brussels
