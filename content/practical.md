@@ -8,9 +8,9 @@ introtext: ''
 
 ### Full pass
 
-* opening night (November 7)
-* night #1 (November 8)
-* night #2 (November 10)
+* Opening Night (November 7)
+* Night #1 (November 8)
+* Night #2 (November 10)
 * 35€
 
 ### Exhibition
@@ -25,7 +25,9 @@ introtext: ''
 * November 7
 * 10:00-18:00
 * free entrance
-* Opening Night
+
+### Opening Night
+
 * November 7
 * 18:00-23:00
 * 10€ : presale
@@ -55,8 +57,3 @@ introtext: ''
 
 * Bourse / Beurs
 * Place de la Bourse, 1000 Brussels
-
-## Where to sleep:
-
-* Qbic Hotel
-* Rue Paul Spaak 15, 1000 Brussels
