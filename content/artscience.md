@@ -1,6 +1,6 @@
 +++
 day = ["Saturday 9"]
-introtext = "Ohme presents: \\[unframed\\] a close up on ArtScience"
+introtext = "Ohme presents: \\]unframed\\[ a close up on ArtScience"
 layout = "category"
 title = "ArtScience"
 type = "category"
