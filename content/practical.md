@@ -40,7 +40,7 @@ introtext: ''
 * 15€ : presale
 * 20€ : on the door
 
-### \]unframed\[
+### \]unframed\[ a close up on ArtScience
 
 * November 9
 * 21:00-00:00
