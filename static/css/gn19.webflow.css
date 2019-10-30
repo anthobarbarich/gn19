@@ -594,6 +594,7 @@ a {
     position: relative;
     z-index: 2;
     padding-bottom: 120px;
+	color: white;
 }
 .footer {
     position: relative;
