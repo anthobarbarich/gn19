@@ -42,38 +42,8 @@
 
             <div class="room"><p class="arti-type">18:00-22:00</p>
               <h2 class="room-heading">Opening Night : concerts & A/V live shows<br></h2>          
-              {{range where .Site.Pages ".Params.category" "Nocturnes"}}
-              {{if in .Params.blabla "Thursday 7" }}
-              <div class="block-artist">
-                  <div class="html-embed-2 w-embed"><br></div>
-                  <a href="{{ .Permalink}}" class="w-inline-block">
-                    <h3 class="artistname">{{.Params.name}}<br></h3>
-                    <div class="arti-type">{{.Params.perf}}{{with .Params.categoryB }}, {{delimit . ' ' | safeHTML}} {{end}}</div>
-                  </a>
-              </div>
-              {{ end }}
-              {{ end }}
-              {{ range (where (where .Site.Pages ".Params.category" "Nocturnes")  ".Params.day" "Thursday 7") }}
-              <div class="block-artist">
-                  <div class="html-embed-2 w-embed"><br></div>
-                  <a href="{{ .Permalink}}" class="w-inline-block">
-                    <h3 class="artistname">{{.Params.name}}<br></h3>
-                    <div class="arti-type">{{.Params.perf}}</div>
-                  </a>
-                </div>
-               {{ end }} 
-               {{range where .Site.Pages ".Params.day" "Thursday 7"}} 
-               {{if in .Params.categoryB "Nocturnes" }}
-               <div class="block-artist">
-                <div class="html-embed-2 w-embed"><br></div>
-                <a href="{{ .Permalink}}" class="w-inline-block">
-                  <h3 class="artistname">{{.Params.name}}TEST<br></h3>
-                  <div class="arti-type">{{.Params.perf}}</div>
-                </a>
-               </div>
-              {{ end }}{{ end }}
               {{range .Site.Pages}}
-              {{if and (in .Params.categoryB "Nocturnes") (in .Params.blabla "Thursday 7")}}
+              {{if and (in .Params.category "Nocturnes") (in .Params.day "Thursday 7")}}
               <div class="block-artist">
                 <div class="html-embed-2 w-embed"><br></div>
                 <a href="{{ .Permalink}}" class="w-inline-block">
@@ -115,7 +85,7 @@
             <div class="room">
               <h2 class="room-heading">ArtScience Night<br></h2>
               {{range .Site.Pages}}
-              {{if in .Params.blabla "Saturday 9" }}
+              {{ if or (in .Params.categoryB "ArtScience") (in .Params.category "ArtScience") }}
               <div class="block-artist">
                   <div class="html-embed-2 w-embed"><br></div>
                   <a href="{{ .Permalink}}" class="w-inline-block">
@@ -124,22 +94,13 @@
                   </a>
               </div>
               {{ end }}{{ end }}
-              {{ range where .Site.Pages ".Params.day" "Saturday 9" }}
-              <div class="block-artist">
-                  <div class="html-embed-2 w-embed"><br></div>
-                  <a href="{{ .Permalink}}" class="w-inline-block">
-                    <h3 class="artistname">{{.Params.name}}<br></h3>
-                    <div class="arti-type">{{.Params.perf}}</div>
-                  </a>
-                </div>
-               {{ end }}
             </div>        
             </div>
 			 <div data-w-tab="Tab 4" class="w-tab-pane">
             <div class="room"><p class="arti-type">22:00-06:00</p>
               <h2 class="room-heading">Night: A/V live shows, 3D-sound live & DJ-sets<br></h2>
               {{range .Site.Pages}}
-              {{if in .Params.blabla "Sunday 10" }}
+               {{ if or (in .Params.blabla "Sunday 10") (in .Params.day "Sunday 10") }}
               <div class="block-artist">
                   <div class="html-embed-2 w-embed"><br></div>
                   <a href="{{ .Permalink}}" class="w-inline-block">
@@ -148,15 +109,6 @@
                   </a>
               </div>
               {{ end }}{{ end }}
-              {{ range where .Site.Pages ".Params.day" "Sunday 10" }}
-              <div class="block-artist">
-                  <div class="html-embed-2 w-embed"><br></div>
-                  <a href="{{ .Permalink}}" class="w-inline-block">
-                    <h3 class="artistname">{{.Params.name}}<br></h3>
-                    <div class="arti-type">{{.Params.perf}}</div>
-                  </a>
-                </div>
-               {{ end }}
             </div> 
         
             </div>
