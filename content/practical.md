@@ -51,12 +51,12 @@ introtext: ''
 * 15€ : presale
 * 20€ : on the door
 
-### How to get there:
+## How to get there:
 
 * Bourse / Beurs
 * Place de la Bourse, 1000 Brussels
 
-### Where to sleep:
+## Where to sleep:
 
 * Qbic Hotel
 * Rue Paul Spaak 15, 1000 Brussels
