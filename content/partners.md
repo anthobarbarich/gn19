@@ -4,7 +4,7 @@ title: Our Partners
 introtext: ''
 partners:
 - name: BCOH
-  logo: "/uploads/BOCH_logoNew01092019.eps"
+  logo: "/uploads/logo-15-1.png"
   url: http://www.bcoh.be/
 - name: Qbic
   logo: "/uploads/logo-15.png"
