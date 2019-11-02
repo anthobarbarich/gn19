@@ -13,7 +13,7 @@ fields:
   name: introtext
   label: introtext
 pages:
+- content/schedule.md
+- content/previous-editions.md
 - content/lineup/_index.md
 - content/venue.md
-- content/previous-editions.md
-- content/schedule.md
