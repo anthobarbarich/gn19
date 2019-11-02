@@ -1,6 +1,6 @@
 +++
 day = ["Thursday 7", "Friday 8", "Saturday 9", "Sunday 10", "Monday 11"]
-introtext = "A timeless moment"
+introtext = "Thursday: 18:00-23:00\n\nFriday: 12:00-01:00\n\nSaturday: 12:00-23:00 \n\nSunday: 12:00-01:00 \n\nMonday: 12:00-20:00"
 layout = "category"
 title = "Exhibition"
 type = "category"
