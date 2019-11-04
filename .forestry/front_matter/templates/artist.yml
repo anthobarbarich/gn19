@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/antoine-de-schuyter.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/jm-sparenberg.md
 - content/lineup/frederik-vanhoutte.md
@@ -114,7 +115,6 @@ pages:
 - content/lineup/athanasia.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/mathieu-zurstrassenbis.md
-- content/lineup/antoine-de-schuyter.md
 - content/lineup/mika-oki.md
 - content/lineup/roly-porter-mfo.md
 - content/lineup/arnaud-laffond.md
