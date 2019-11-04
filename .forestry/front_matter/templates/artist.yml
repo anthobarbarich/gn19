@@ -107,7 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
-- content/lineup/abscisse-bots.md
+- content/lineup/abscisse.md
 - content/lineup/romain-maggiolo.md
 - content/lineup/unframed-panel-talk.md
 - content/lineup/sine.md
