@@ -18,3 +18,4 @@ picture = "/uploads/ff6 copy.jpg"
 text = "Afterwards will take place «Sine», a participative performance / lecture about the physics of electronic music. The evening will then close with a performance by Evelina Domnitch & Dmitry Gelfand: «Force Field»."
 
 +++
+![](/uploads/logo-06.png)![](/uploads/logo-14.png)
