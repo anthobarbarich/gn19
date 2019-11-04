@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/athanasia.md
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/mathieu-zurstrassenbis.md
 - content/lineup/antoine-de-schuyter.md
@@ -121,7 +122,6 @@ pages:
 - content/lineup/eleves-en-liberte.md
 - content/lineup/singularite-tech.md
 - content/lineup/romain-maggiolo.md
-- content/lineup/athanasia.md
 - content/lineup/anna-peiffer.md
 - content/lineup/jm-sparenberg.md
 - content/lineup/frederik-vanhoutte.md
