@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/sine.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/felix-luque-damien-gernay.md
 - content/lineup/jm-sparenberg.md
@@ -118,7 +119,6 @@ pages:
 - content/lineup/mika-oki.md
 - content/lineup/roly-porter-mfo.md
 - content/lineup/arnaud-laffond.md
-- content/lineup/sine.md
 - content/lineup/bxl-the-grand-place-to-be.md
 - content/lineup/unframed-panel-talk.md
 - content/lineup/le-motel-antoine-de-schuyter.md
