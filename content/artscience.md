@@ -1,8 +1,8 @@
 +++
 day = ["Saturday 9"]
-introtext = "Ohme presents: \\]unframed\\[ a close up on ArtScience"
+introtext = "ArtScience Night curated by Ohme"
 layout = "category"
-title = "ArtScience"
+title = "Ohme Presents: ]unframed[ a close up on ArtScience"
 type = "category"
 [[blockcontent]]
 picture = "/uploads/ff0.jpg"
