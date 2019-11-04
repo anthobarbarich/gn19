@@ -594,6 +594,7 @@ a {
     position: relative;
     z-index: 2;
     padding-bottom: 120px;
+	color: white;
 }
 .footer {
     position: relative;
@@ -1255,13 +1256,12 @@ margin-bottom: -20px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 105px;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .imgpartner {
-    height: 125px;
+    height: 70px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
@@ -1853,16 +1853,21 @@ retransform {
     src: url('../fonts/NeueMachina-Ultrabold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
+	font-display: swap;
 }
 @font-face {
     font-family: 'Neuemachina';
     src: url('../fonts/NeueMachina-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
+	font-display: swap;
+
 }
 @font-face {
     font-family: 'Neuemachina';
     src: url('../fonts/NeueMachina-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
+	font-display: swap;
+
 }
