@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/abscisse.md
 - content/lineup/romain-maggiolo.md
 - content/lineup/sine.md
 - content/lineup/antoine-de-schuyter.md
