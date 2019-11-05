@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/evelina-dmitry.md
 - content/lineup/unframed-panel-talk.md
 - content/lineup/kali-malone.md
 - content/lineup/abscisse.md
@@ -127,7 +128,6 @@ pages:
 - content/lineup/le-motel-antoine-de-schuyter.md
 - content/lineup/eleves-en-liberte.md
 - content/lineup/singularite-tech.md
-- content/lineup/evelina-dmitry.md
 - content/lineup/batu.md
 - content/lineup/miaux.md
 - content/lineup/djrum.md
