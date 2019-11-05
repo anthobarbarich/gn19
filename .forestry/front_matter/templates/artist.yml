@@ -107,6 +107,7 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/roly-porter-mfo.md
 - content/lineup/sine.md
 - content/lineup/evelina-dmitry.md
 - content/lineup/unframed-panel-talk.md
@@ -122,7 +123,6 @@ pages:
 - content/lineup/johann-baron-lanteigne.md
 - content/lineup/mathieu-zurstrassenbis.md
 - content/lineup/mika-oki.md
-- content/lineup/roly-porter-mfo.md
 - content/lineup/arnaud-laffond.md
 - content/lineup/bxl-the-grand-place-to-be.md
 - content/lineup/le-motel-antoine-de-schuyter.md
