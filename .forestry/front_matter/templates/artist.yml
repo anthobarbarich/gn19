@@ -107,10 +107,10 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/unframed-panel-talk.md
 - content/lineup/kali-malone.md
 - content/lineup/abscisse.md
 - content/lineup/romain-maggiolo.md
-- content/lineup/unframed-panel-talk.md
 - content/lineup/sine.md
 - content/lineup/antoine-de-schuyter.md
 - content/lineup/felix-luque-damien-gernay.md
