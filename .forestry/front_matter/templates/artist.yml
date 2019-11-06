@@ -107,9 +107,9 @@ fields:
     - ArtScience
   label: Autre catégorie
 pages:
+- content/lineup/antoine-goldschmidt-ofer-smilansky.md
 - content/lineup/plic-ploc.md
 - content/lineup/evelina-dmitry.md
-- content/lineup/antoine-goldschmidt-ofer-smilansky.md
 - content/lineup/roly-porter-mfo.md
 - content/lineup/sine.md
 - content/lineup/unframed-panel-talk.md
